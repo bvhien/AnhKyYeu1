@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tbluser" table="tbluser" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="userId" type="java.lang.Integer">
+            <column name="user_id" />
+            <generator class="identity" />
+        </id>
+        <property name="userName" type="string">
+            <column name="user_name" length="100" not-null="true" />
+        </property>
+        <property name="userPass" type="string">
+            <column name="user_pass" length="100" not-null="true" />
+        </property>
+        <property name="userFullname" type="string">
+            <column name="user_fullname" length="45" />
+        </property>
+        <property name="userBirthday" type="string">
+            <column name="user_birthday" length="45" />
+        </property>
+        <property name="userMobilephone" type="string">
+            <column name="user_mobilephone" length="45" />
+        </property>
+        <property name="userHomephone" type="string">
+            <column name="user_homephone" length="45" />
+        </property>
+        <property name="userOfficephone" type="string">
+            <column name="user_officephone" length="45" />
+        </property>
+        <property name="userEmail" type="string">
+            <column name="user_email" length="100" not-null="true" />
+        </property>
+        <property name="userAddress" type="string">
+            <column name="user_address" length="200" />
+        </property>
+        <property name="userJobarea" type="string">
+            <column name="user_jobarea" length="200" />
+        </property>
+        <property name="userJob" type="string">
+            <column name="user_job" length="45" />
+        </property>
+        <property name="userPosition" type="string">
+            <column name="user_position" length="45" />
+        </property>
+        <property name="userApplyyear" type="java.lang.Short">
+            <column name="user_applyyear" />
+        </property>
+        <property name="userPermission" type="java.lang.Short">
+            <column name="user_permission" />
+        </property>
+        <property name="userNotes" type="string">
+            <column name="user_notes" length="65535" />
+        </property>
+        <property name="userRoles" type="string">
+            <column name="user_roles" length="45" />
+        </property>
+        <property name="userLogined" type="java.lang.Integer">
+            <column name="user_logined" />
+        </property>
+        <property name="userCreatedDate" type="timestamp">
+            <column name="user_created_date" length="19" />
+        </property>
+        <property name="userEditedDate" type="timestamp">
+            <column name="user_edited_date" length="19" />
+        </property>
+    </class>
+</hibernate-mapping>

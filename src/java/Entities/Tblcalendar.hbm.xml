@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tblcalendar" table="tblcalendar" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="calendarId" type="java.lang.Integer">
+            <column name="calendar_id" />
+            <generator class="identity" />
+        </id>
+        <property name="calendarTitle" type="string">
+            <column name="calendar_title" length="300">
+                <comment>Tieu de</comment>
+            </column>
+        </property>
+        <property name="calendarCreatedDate" type="string">
+            <column name="calendar_created_date" length="45">
+                <comment>Ngay tao lich</comment>
+            </column>
+        </property>
+        <property name="calendarFirstdateofweek" type="string">
+            <column name="calendar_firstdateofweek" length="300">
+                <comment>Duong lich</comment>
+            </column>
+        </property>
+        <property name="calendarFirstdateofweekLunar" type="string">
+            <column name="calendar_firstdateofweek_lunar" length="300">
+                <comment>Am lich</comment>
+            </column>
+        </property>
+        <property name="calendarMon1" type="string">
+            <column name="calendar_mon_1" length="300" />
+        </property>
+        <property name="calendarMon2" type="string">
+            <column name="calendar_mon_2" length="300" />
+        </property>
+        <property name="calendarMon3" type="string">
+            <column name="calendar_mon_3" length="300" />
+        </property>
+        <property name="calendarTue1" type="string">
+            <column name="calendar_tue_1" length="300" />
+        </property>
+        <property name="calendarTue2" type="string">
+            <column name="calendar_tue_2" length="300" />
+        </property>
+        <property name="calendarTue3" type="string">
+            <column name="calendar_tue_3" length="300" />
+        </property>
+        <property name="calendarWed1" type="string">
+            <column name="calendar_wed_1" length="300" />
+        </property>
+        <property name="calendarWed2" type="string">
+            <column name="calendar_wed_2" length="300" />
+        </property>
+        <property name="calendarWed3" type="string">
+            <column name="calendar_wed_3" length="300" />
+        </property>
+        <property name="calendarThu1" type="string">
+            <column name="calendar_thu_1" length="300" />
+        </property>
+        <property name="calendarThu2" type="string">
+            <column name="calendar_thu_2" length="300" />
+        </property>
+        <property name="calendarThu3" type="string">
+            <column name="calendar_thu_3" length="300" />
+        </property>
+        <property name="calendarFri1" type="string">
+            <column name="calendar_fri_1" length="300" />
+        </property>
+        <property name="calendarFri2" type="string">
+            <column name="calendar_fri_2" length="300" />
+        </property>
+        <property name="calendarFri3" type="string">
+            <column name="calendar_fri_3" length="300" />
+        </property>
+        <property name="calendarSat1" type="string">
+            <column name="calendar_sat_1" length="300" />
+        </property>
+        <property name="calendarSat2" type="string">
+            <column name="calendar_sat_2" length="300" />
+        </property>
+        <property name="calendarSat3" type="string">
+            <column name="calendar_sat_3" length="300" />
+        </property>
+        <property name="calendarSun1" type="string">
+            <column name="calendar_sun_1" length="300" />
+        </property>
+        <property name="calendarSun2" type="string">
+            <column name="calendar_sun_2" length="300" />
+        </property>
+        <property name="calendarSun3" type="string">
+            <column name="calendar_sun_3" length="300" />
+        </property>
+        <property name="calendarNotesMon" type="string">
+            <column name="calendar_notes_mon" length="65535" />
+        </property>
+        <property name="calendarNotesTue" type="string">
+            <column name="calendar_notes_tue" length="65535" />
+        </property>
+        <property name="calendarNotesWed" type="string">
+            <column name="calendar_notes_wed" length="65535" />
+        </property>
+        <property name="calendarNotesThu" type="string">
+            <column name="calendar_notes_thu" length="65535" />
+        </property>
+        <property name="calendarNotesFri" type="string">
+            <column name="calendar_notes_fri" length="65535" />
+        </property>
+        <property name="calendarNotesSat" type="string">
+            <column name="calendar_notes_sat" length="65535" />
+        </property>
+        <property name="calendarNotesSun" type="string">
+            <column name="calendar_notes_sun" length="65535" />
+        </property>
+        <property name="calendarNotes" type="string">
+            <column name="calendar_notes" length="65535" />
+        </property>
+        <property name="calendarPriority" type="java.lang.Boolean">
+            <column name="calendar_priority">
+                <comment>Ngay uu tien</comment>
+            </column>
+        </property>
+        <property name="calendarUserName" type="string">
+            <column name="calendar_user_name" length="45" />
+        </property>
+        <property name="calendarVisited" type="java.lang.Short">
+            <column name="calendar_visited" />
+        </property>
+    </class>
+</hibernate-mapping>

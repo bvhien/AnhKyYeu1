@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">123</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <property name="connection.pool_size">100</property>
+    <!--Hỗ trợ unicode Tiếng việt-->
+    <property name="hibernate.connection.useUnicode">true</property>
+    <property name="hibernate.connection.characterEncoding">UTF-8</property>
+    <property name="hibernate.connection.charSet">UTF-8</property>
+    <mapping resource="Entities/Tblparameter.hbm.xml"/>
+    <mapping resource="Entities/Tbllog.hbm.xml"/>
+    <mapping resource="Entities/Tblstatistic.hbm.xml"/>
+    <mapping resource="Entities/Tblalbum.hbm.xml"/>
+    <mapping resource="Entities/Tblcalendar.hbm.xml"/>
+    <mapping resource="Entities/Tblcategory.hbm.xml"/>
+    <mapping resource="Entities/Tbluser.hbm.xml"/>
+    <mapping resource="Entities/Tblsection.hbm.xml"/>
+    <mapping resource="Entities/Tbladvertise.hbm.xml"/>
+    <mapping resource="Entities/TblarticleExtends.hbm.xml"/>
+    <mapping resource="Entities/Tblvalue.hbm.xml"/>
+    <mapping resource="Entities/Tbllabel.hbm.xml"/>
+    <mapping resource="Entities/Tblimage.hbm.xml"/>
+    <mapping resource="Entities/Tblfeedback.hbm.xml"/>
+    <mapping resource="Entities/Tblaccount.hbm.xml"/>
+    <mapping resource="Entities/Tblcustomer.hbm.xml"/>
+    <mapping resource="Entities/Tblarticle.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

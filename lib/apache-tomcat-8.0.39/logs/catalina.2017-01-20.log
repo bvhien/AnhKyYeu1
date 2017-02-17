@@ -1,0 +1,131 @@
+20-Jan-2017 17:05:44.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.39
+20-Jan-2017 17:05:44.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2016 08:48:39 UTC
+20-Jan-2017 17:05:44.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.39.0
+20-Jan-2017 17:05:44.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+20-Jan-2017 17:05:44.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+20-Jan-2017 17:05:44.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Jan-2017 17:05:44.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+20-Jan-2017 17:05:44.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+20-Jan-2017 17:05:44.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jan-2017 17:05:44.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39
+20-Jan-2017 17:05:44.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39
+20-Jan-2017 17:05:44.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+20-Jan-2017 17:05:44.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+20-Jan-2017 17:05:44.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=1024m
+20-Jan-2017 17:05:44.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=2048m
+20-Jan-2017 17:05:44.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jan-2017 17:05:44.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jan-2017 17:05:44.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\logging.properties
+20-Jan-2017 17:05:44.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jan-2017 17:05:44.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\endorsed
+20-Jan-2017 17:05:44.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39
+20-Jan-2017 17:05:44.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39
+20-Jan-2017 17:05:44.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\temp
+20-Jan-2017 17:05:44.526 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+20-Jan-2017 17:05:44.526 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20-Jan-2017 17:05:45.177 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+20-Jan-2017 17:05:45.736 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8086"]
+20-Jan-2017 17:05:45.761 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+20-Jan-2017 17:05:45.765 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2304 ms
+20-Jan-2017 17:05:45.856 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Jan-2017 17:05:45.857 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.39
+20-Jan-2017 17:05:45.882 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\Catalina\localhost\AnhKyYeu.xml
+20-Jan-2017 17:05:46.002 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+20-Jan-2017 17:05:52.534 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2017 17:05:52.723 INFO [localhost-startStop-1] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:05:52.845 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [118] milliseconds.
+20-Jan-2017 17:05:53.442 INFO [localhost-startStop-1] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:05:54.109 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\Catalina\localhost\AnhKyYeu.xml has finished in 8,226 ms
+20-Jan-2017 17:05:54.109 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\docs
+20-Jan-2017 17:05:54.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\docs has finished in 49 ms
+20-Jan-2017 17:05:54.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\examples
+20-Jan-2017 17:05:56.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\examples has finished in 2,297 ms
+20-Jan-2017 17:05:56.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\host-manager
+20-Jan-2017 17:05:56.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\host-manager has finished in 97 ms
+20-Jan-2017 17:05:56.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\manager
+20-Jan-2017 17:05:56.655 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\manager has finished in 103 ms
+20-Jan-2017 17:05:56.655 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\ROOT
+20-Jan-2017 17:05:56.708 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\ROOT has finished in 53 ms
+20-Jan-2017 17:05:56.713 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8086"]
+20-Jan-2017 17:05:56.746 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+20-Jan-2017 17:05:56.751 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 10984 ms
+20-Jan-2017 17:05:58.415 INFO [http-apr-8086-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:06:00.905 INFO [http-apr-8086-exec-6] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:06:01.302 INFO [http-apr-8086-exec-6] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:06:01.840 INFO [http-apr-8086-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:22:36.480 INFO [http-apr-8086-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:22:39.414 INFO [http-apr-8086-exec-20] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:22:39.922 INFO [http-apr-8086-exec-20] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:22:40.411 INFO [http-apr-8086-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:22:40.437 INFO [http-apr-8086-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:22:42.318 INFO [http-apr-8086-exec-14] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:22:42.687 INFO [http-apr-8086-exec-14] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:22:43.274 INFO [http-apr-8086-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:23:03.566 INFO [http-apr-8086-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:23:06.316 INFO [http-apr-8086-exec-16] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:23:06.663 INFO [http-apr-8086-exec-16] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:23:07.244 INFO [http-apr-8086-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:23:07.302 INFO [http-apr-8086-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:23:09.088 INFO [http-apr-8086-exec-11] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:23:09.605 INFO [http-apr-8086-exec-11] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:23:10.068 INFO [http-apr-8086-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:23:13.401 INFO [http-apr-8086-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:23:15.603 INFO [http-apr-8086-exec-25] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:23:15.981 INFO [http-apr-8086-exec-25] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:23:16.436 INFO [http-apr-8086-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:23:46.708 INFO [http-apr-8086-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:23:48.536 INFO [http-apr-8086-exec-23] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:23:48.942 INFO [http-apr-8086-exec-23] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:23:49.391 WARNING [http-apr-8086-exec-23] org.glassfish.jersey.internal.Errors.logErrors The following warnings have been detected: WARNING: A HTTP GET method, public java.lang.String Service.AlbumResource.AddAlbum(javax.servlet.http.HttpServletRequest,java.lang.String) throws org.json.JSONException, should not consume any entity.
+
+20-Jan-2017 17:23:49.403 INFO [http-apr-8086-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:23:49.428 INFO [http-apr-8086-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:23:51.118 INFO [http-apr-8086-exec-24] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:23:51.462 INFO [http-apr-8086-exec-24] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:23:52.013 WARNING [http-apr-8086-exec-24] org.glassfish.jersey.internal.Errors.logErrors The following warnings have been detected: WARNING: A HTTP GET method, public java.lang.String Service.AlbumResource.AddAlbum(javax.servlet.http.HttpServletRequest,java.lang.String) throws org.json.JSONException, should not consume any entity.
+
+20-Jan-2017 17:23:52.025 INFO [http-apr-8086-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:23:52.459 INFO [http-apr-8086-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:23:54.159 INFO [http-apr-8086-exec-26] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:23:54.497 INFO [http-apr-8086-exec-26] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:23:55.006 WARNING [http-apr-8086-exec-26] org.glassfish.jersey.internal.Errors.logErrors The following warnings have been detected: WARNING: A HTTP GET method, public java.lang.String Service.AlbumResource.AddAlbum(javax.servlet.http.HttpServletRequest,java.lang.String) throws org.json.JSONException, should not consume any entity.
+
+20-Jan-2017 17:23:55.021 INFO [http-apr-8086-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:24:25.836 INFO [http-apr-8086-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:24:27.530 INFO [http-apr-8086-exec-30] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:24:27.928 INFO [http-apr-8086-exec-30] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:24:28.430 WARNING [http-apr-8086-exec-30] org.glassfish.jersey.internal.Errors.logErrors The following warnings have been detected: WARNING: A HTTP GET method, public java.lang.String Service.AlbumResource.LuuThongTin(javax.servlet.http.HttpServletRequest,java.lang.String) throws org.json.JSONException, should not consume any entity.
+
+20-Jan-2017 17:24:28.441 INFO [http-apr-8086-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:24:28.471 INFO [http-apr-8086-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:24:30.010 INFO [http-apr-8086-exec-28] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:24:30.342 INFO [http-apr-8086-exec-28] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:24:30.776 WARNING [http-apr-8086-exec-28] org.glassfish.jersey.internal.Errors.logErrors The following warnings have been detected: WARNING: A HTTP GET method, public java.lang.String Service.AlbumResource.LuuThongTin(javax.servlet.http.HttpServletRequest,java.lang.String) throws org.json.JSONException, should not consume any entity.
+
+20-Jan-2017 17:24:30.788 INFO [http-apr-8086-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:24:50.699 INFO [http-apr-8086-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:24:52.355 INFO [http-apr-8086-exec-33] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:24:52.679 INFO [http-apr-8086-exec-33] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:24:53.188 WARNING [http-apr-8086-exec-33] org.glassfish.jersey.internal.Errors.logErrors The following warnings have been detected: WARNING: A HTTP GET method, public java.lang.String Service.AlbumResource.LuuThongTin(javax.servlet.http.HttpServletRequest,java.lang.String) throws org.json.JSONException, should not consume any entity.
+
+20-Jan-2017 17:24:53.205 INFO [http-apr-8086-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:26:14.133 INFO [http-apr-8086-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:26:15.786 INFO [http-apr-8086-exec-35] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:26:16.105 INFO [http-apr-8086-exec-35] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:26:16.557 WARNING [http-apr-8086-exec-35] org.glassfish.jersey.internal.Errors.logErrors The following warnings have been detected: WARNING: A HTTP GET method, public java.lang.String Service.AlbumResource.LuuThongTin(javax.servlet.http.HttpServletRequest,java.lang.String) throws org.json.JSONException, should not consume any entity.
+
+20-Jan-2017 17:26:16.569 INFO [http-apr-8086-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:26:42.589 INFO [http-apr-8086-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Jan-2017 17:26:44.247 INFO [http-apr-8086-exec-38] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Jan-2017 17:26:44.579 INFO [http-apr-8086-exec-38] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Jan-2017 17:26:44.970 WARNING [http-apr-8086-exec-38] org.glassfish.jersey.internal.Errors.logErrors The following warnings have been detected: WARNING: A HTTP GET method, public java.lang.String Service.AlbumResource.LuuThongTin(javax.servlet.http.HttpServletRequest,java.lang.String) throws org.json.JSONException, should not consume any entity.
+
+20-Jan-2017 17:26:44.980 INFO [http-apr-8086-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Jan-2017 17:27:04.797 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Jan-2017 17:27:04.797 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8086"]
+20-Jan-2017 17:27:04.851 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+20-Jan-2017 17:27:04.902 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+20-Jan-2017 17:27:04.937 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8086"]
+20-Jan-2017 17:27:04.990 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+20-Jan-2017 17:27:05.043 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8086"]
+20-Jan-2017 17:27:05.044 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]

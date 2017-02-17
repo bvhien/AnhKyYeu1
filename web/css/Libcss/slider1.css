@@ -1,0 +1,523 @@
+#album-content .slide-holder{
+margin:0 auto;
+}
+#album-content .slide-container { /*slide-container là khối bao mà slide-stage có thể "trượt" bên trong */
+height: 300px;
+width: 100%;
+overflow: hidden;
+position:relative;
+}
+#album-content .slide-stage{
+position: absolute;
+}
+#album-content .slide-image { /*Độ rộng của .slide-image có thể được thay đổi theo nhu cầu, ảnh hưởng đến độ rộng chung của slideshow*/
+float: left;
+width: 207px;
+height: 300px;
+text-align: center;
+}
+#album-content .title-image{
+z-index: 99;
+position: relative;
+bottom: 60px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.4);
+margin-right: 6px;
+margin-left: 5px;
+right: 0px;
+line-height: 40px;
+
+}
+#album-content .title-image>p{
+	color:white;
+}
+#album-content .slide-image:hover>.title-image{
+	position:relative;
+	bottom:308px;
+	height:288px;
+	background-color:rgba(52, 73, 94,0.6);
+	transition:0.8s;
+}
+#album-content .title-image:hover>.myButton{
+	display:block;
+}
+#album-content .title-image a{
+	color:white;
+}
+#album-content .slide-image img{
+width: 95%;
+margin: 6px auto;
+height: 96%;
+}
+#album-content .slide-pager{
+position:relative;
+}
+#album-content .slide-control-prev {
+position: absolute;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+color: #FFF;
+cursor: pointer;
+top: -45px;
+right: 30px;
+z-index: 9;
+}
+#album-content .slide-control-prev img{
+height:35px;
+}
+#album-content .slide-control-prev:hover{
+background-color:#34495e;
+}
+#album-content .slide-control-next{
+position: absolute;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+color: #FFF;
+cursor: pointer;
+top: -45px;
+right: -4px;
+z-index: 9;
+}
+#album-content .slide-control-next img{
+height:35px;
+}
+#album-content .slide-control-next:hover{
+background-color:#34495e;
+}
+/*end album-content*/
+
+#khoacntt .slide-holder{
+margin:0 auto;
+}
+#khoacntt .slide-container { /*slide-container là khối bao mà slide-stage có thể "trượt" bên trong */
+height: 253px;
+width: 100%;
+overflow: hidden;
+position:relative;
+}
+#khoacntt .slide-stage{
+position: absolute;
+}
+#khoacntt .slide-image { /*Độ rộng của .slide-image có thể được thay đổi theo nhu cầu, ảnh hưởng đến độ rộng chung của slideshow*/
+float: left;
+width: 165px;
+height: 250px;
+text-align: center;
+}
+#khoacntt .title-image{
+z-index: 99;
+position: relative;
+bottom: 60px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.4);
+margin-right: 4px;
+margin-left: 3px;
+right: 0px;
+line-height: 40px;
+
+}
+#khoacntt .title-image>p{
+	color:white;
+}
+#khoacntt .image{
+	height:300px;
+}
+#khoacntt .slide-image:hover>.title-image{
+	position:inline-block;
+	bottom: 260px;
+	height: 240px;
+	background-color:rgba(52, 73, 94,0.6);
+	transition:0.8s;
+}
+#khoacntt .title-image:hover>.myButton{
+	display:block;
+}
+#khoacntt .title-image a{
+	color:white;
+}
+#khoacntt .slide-image img{
+width: 95%;
+margin: 6px auto;
+height: 96%;
+}
+#khoacntt .slide-pager{
+position:relative;
+}
+#khoacntt .slide-control-prev {
+position: absolute;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+color: #FFF;
+cursor: pointer;
+top: -45px;
+right: 30px;
+z-index: 9;
+}
+#khoacntt .slide-control-prev img{
+height:35px;
+}
+#khoacntt .slide-control-prev:hover{
+background-color:#34495e;
+}
+#khoacntt .slide-control-next{
+position: absolute;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+color: #FFF;
+cursor: pointer;
+top: -45px;
+right: -4px;
+z-index: 9;
+}
+#khoacntt .slide-control-next img{
+height:35px;
+}
+#khoacntt .slide-control-next:hover{
+background-color:#34495e;
+}
+/*end khoacntt*/
+
+#khoacokhi .slide-holder{
+margin:0 auto;
+}
+#khoacokhi .slide-container { /*slide-container là khối bao mà slide-stage có thể "trượt" bên trong */
+height: 253px;
+width: 100%;
+overflow: hidden;
+position:relative;
+}
+#khoacokhi .slide-stage{
+position: absolute;
+}
+#khoacokhi .slide-image { /*Độ rộng của .slide-image có thể được thay đổi theo nhu cầu, ảnh hưởng đến độ rộng chung của slideshow*/
+float: left;
+width: 165px;
+height: 250px;
+text-align: center;
+}
+#khoacokhi .title-image{
+z-index: 99;
+position: relative;
+bottom: 60px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.4);
+margin-right: 4px;
+margin-left: 3px;
+right: 0px;
+line-height: 40px;
+
+}
+#khoacokhi .title-image>p{
+	color:white;
+}
+
+#khoacokhi .slide-image:hover>.title-image{
+	position:inline-block;
+	bottom: 260px;
+	height: 240px;
+	background-color:rgba(52, 73, 94,0.6);
+	transition:0.8s;
+}
+#khoacokhi .title-image:hover>.myButton{
+	display:block;
+}
+#khoacokhi .title-image a{
+	color:white;
+}
+#khoacokhi .slide-image img{
+width: 95%;
+margin: 6px auto;
+height: 96%;
+}
+#khoacokhi .slide-pager{
+position:relative;
+}
+#khoacokhi .slide-control-prev {
+position: absolute;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+color: #FFF;
+cursor: pointer;
+top: -45px;
+right: 30px;
+z-index: 9;
+}
+#khoacokhi .slide-control-prev img{
+height:35px;
+}
+#khoacokhi .slide-control-prev:hover{
+background-color:#34495e;
+}
+#khoacokhi .slide-control-next{
+position: absolute;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+color: #FFF;
+cursor: pointer;
+top: -45px;
+right: -4px;
+z-index: 9;
+}
+#khoacokhi .slide-control-next img{
+height:35px;
+}
+#khoacokhi .slide-control-next:hover{
+background-color:#34495e;
+}
+
+/*end khoacokhi*/
+
+
+#khoakt .slide-holder{
+margin:0 auto;
+}
+#khoakt .slide-container { /*slide-container là khối bao mà slide-stage có thể "trượt" bên trong */
+height: 253px;
+width: 100%;
+overflow: hidden;
+position:relative;
+}
+#khoakt .slide-stage{
+position: absolute;
+}
+#khoakt .slide-image { /*Độ rộng của .slide-image có thể được thay đổi theo nhu cầu, ảnh hưởng đến độ rộng chung của slideshow*/
+float: left;
+width: 165px;
+height: 250px;
+text-align: center;
+}
+#khoakt .title-image{
+z-index: 99;
+position: relative;
+bottom: 60px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.4);
+margin-right: 4px;
+margin-left: 3px;
+right: 0px;
+line-height: 40px;
+
+}
+#khoakt .title-image>p{
+	color:white;
+}
+
+#khoakt .slide-image:hover>.title-image{
+	position:inline-block;
+	bottom: 260px;
+	height: 240px;
+	background-color:rgba(52, 73, 94,0.6);
+	transition:0.8s;
+}
+#khoakt .title-image:hover>.myButton{
+	display:block;
+}
+#khoakt .title-image a{
+	color:white;
+}
+#khoakt .slide-image img{
+width: 95%;
+margin: 6px auto;
+height: 96%;
+}
+#khoakt .slide-pager{
+position:relative;
+}
+#khoakt .slide-control-prev {
+position: absolute;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+color: #FFF;
+cursor: pointer;
+top: -45px;
+right: 30px;
+z-index: 9;
+}
+#khoakt .slide-control-prev img{
+height:35px;
+}
+#khoakt .slide-control-prev:hover{
+background-color:#34495e;
+}
+#khoakt .slide-control-next{
+position: absolute;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+color: #FFF;
+cursor: pointer;
+top: -45px;
+right: -4px;
+z-index: 9;
+}
+#khoakt .slide-control-next img{
+height:35px;
+}
+#khoakt .slide-control-next:hover{
+background-color:#34495e;
+}
+/*end-khoakt*/
+
+
+#view-news .slide-holder{
+margin:0 auto;
+}
+#view-news .slide-container { /*slide-container là khối bao mà slide-stage có thể "trượt" bên trong */
+height: 100%;
+width: 100%;
+overflow: hidden;
+position:relative;
+}
+#view-news .slide-stage{
+position: absolute;
+}
+#view-news .slide-image { /*Độ rộng của .slide-image có thể được thay đổi theo nhu cầu, ảnh hưởng đến độ rộng chung của slideshow*/
+float: left;
+width: 310px;
+height: 80px;
+text-align: center;
+border-bottom: 1px solid #C8C5C5;
+}
+#view-news .image{
+	height: 80px;
+width: 115px;
+float:left;
+}
+#view-news .title-image{
+z-index: 99;
+position: relative;
+bottom: 60px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.4);
+margin-right: 4px;
+margin-left: 3px;
+right: 0px;
+line-height: 40px;
+
+}
+#view-news .title-image>p{
+	color:white;
+}
+
+#view-news .slide-image:hover>.title-image{
+	position:inline-block;
+	bottom: 260px;
+	height: 240px;
+	background-color:rgba(52, 73, 94,0.6);
+	transition:0.8s;
+}
+#view-news .title-image:hover>.myButton{
+	display:block;
+}
+#view-news .title-image a{
+	color:white;
+}
+#view-news .slide-image img{
+width: 100%;
+height: 99%;
+margin-left: 1px;
+margin-top: 0px;
+}
+#view-news a{
+	color:black;
+}
+#view-news .slide-pager{
+position:relative;
+}
+#view-news .slide-control-prev {
+position: absolute;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+color: #FFF;
+cursor: pointer;
+top: -45px;
+right: 30px;
+z-index: 9;
+}
+#view-news .slide-control-prev img{
+height:35px;
+    transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+}
+#view-news .slide-control-prev:hover{
+background-color:#34495e;
+}
+#view-news .slide-control-next{
+position: absolute;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+color: #FFF;
+cursor: pointer;
+top: -45px;
+right: -4px;
+z-index: 9;
+}
+#view-news .slide-control-next img{
+height:35px;
+    transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+}
+#view-news .slide-control-next:hover{
+background-color:#34495e;
+}
+#slider5{
+	margin-top:10px;
+}
+
+
+
+#shows-image .title-image{
+z-index: 99;
+position: relative;
+bottom: 54px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.4);
+margin-right: 0px;
+margin-left: 0px;
+right: 0px;
+line-height: 40px;
+
+}
+#shows-image .title-image>p{
+	color:white;
+	text-align:center !important;
+}
+#shows-image .album-image:hover>.title-image{
+	position:relative;
+	bottom:314px;
+	height:300px;
+	background-color:rgba(52, 73, 94,0.6);
+	transition:0.8s;
+}
+
+#shows-image .title-image:hover>.myButton{
+	display:block;
+}
+#shows-image .title-image a{
+	color:white;
+}

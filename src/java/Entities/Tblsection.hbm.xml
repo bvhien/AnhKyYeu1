@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tblsection" table="tblsection" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="sectionId" type="java.lang.Short">
+            <column name="section_id" />
+            <generator class="identity" />
+        </id>
+        <property name="sectionName" type="string">
+            <column name="section_name" length="200" not-null="true">
+                <comment>Ten chuyen muc</comment>
+            </column>
+        </property>
+        <property name="sectionNotes" type="string">
+            <column name="section_notes" length="65535">
+                <comment>Ghi chu tong hop</comment>
+            </column>
+        </property>
+        <property name="sectionCreatedDate" type="timestamp">
+            <column name="section_created_date" length="19">
+                <comment>Ngay tao Chuyen muc - (Cap nhat 24/05/2011)</comment>
+            </column>
+        </property>
+        <property name="sectionManagerId" type="java.lang.Integer">
+            <column name="section_manager_id">
+                <comment>Nguoi quan ly</comment>
+            </column>
+        </property>
+        <property name="sectionEnable" type="java.lang.Boolean">
+            <column name="section_enable">
+                <comment>Hien thi tren Site hay khong?</comment>
+            </column>
+        </property>
+        <property name="sectionDelete" type="java.lang.Boolean">
+            <column name="section_delete">
+                <comment>Danh dau xoa</comment>
+            </column>
+        </property>
+        <property name="sectionLastModified" type="string">
+            <column name="section_last_modified" length="50">
+                <comment>Ngay sua chua Chuyen muc</comment>
+            </column>
+        </property>
+        <property name="sectionCreatedAuthorId" type="java.lang.Integer">
+            <column name="section_created_author_id">
+                <comment>Nguoi tao ra Chuyen muc</comment>
+            </column>
+        </property>
+        <property name="sectionNameEn" type="string">
+            <column name="section_name_en" length="200" />
+        </property>
+        <property name="sectionLanguage" type="java.lang.Short">
+            <column name="section_language" />
+        </property>
+    </class>
+</hibernate-mapping>

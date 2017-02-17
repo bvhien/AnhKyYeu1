@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tblalbum" table="tblalbum" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="albumId" type="java.lang.Integer">
+            <column name="album_id" />
+            <generator class="identity" />
+        </id>
+        <property name="albumTitle" type="string">
+            <column name="album_title" length="45" />
+        </property>
+        <property name="albumImage" type="string">
+            <column name="album_image" length="200" />
+        </property>
+        <property name="albumCategoryId" type="java.lang.Integer">
+            <column name="album_category_id" />
+        </property>
+        <property name="albumSectionId" type="java.lang.Integer">
+            <column name="album_section_id" />
+        </property>
+        <property name="albumVisited" type="java.lang.Integer">
+            <column name="album_visited" />
+        </property>
+        <property name="albumOrderNo" type="java.lang.Integer">
+            <column name="album_order_no" />
+        </property>
+        <property name="albumStatus" type="string">
+            <column name="album_status" length="20" />
+        </property>
+        <property name="albumCreatDate" type="timestamp">
+            <column name="album_creat_date" length="19" />
+        </property>
+        <property name="albumEditDate" type="timestamp">
+            <column name="album_edit_date" length="19" />
+        </property>
+        <property name="albumNotes" type="string">
+            <column name="album_notes" length="500" />
+        </property>
+    </class>
+</hibernate-mapping>

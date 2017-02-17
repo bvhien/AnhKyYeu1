@@ -1,0 +1,104 @@
+.title{
+    margin-top: 0px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px;
+}
+.row{
+    margin: 0px;
+}
+.text-editor{
+    text-align: center;
+}
+#page-wrapper{
+    background-color: rgb(249, 249, 249)
+}
+.Editor-editor{
+    background-color: white;
+    height: 250px;
+}
+.Editor-container{
+    border: 1px solid #7f8c8d;
+}
+.btn-function{
+    margin-top: 20px;
+    text-align: center;
+}
+select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{height:30px !important; margin-bottom:10px;}
+label{
+    font-weight: normal;
+    font-size: 13px;
+}
+#example_wrapper{
+    border-top: 1px solid rebeccapurple;
+    padding-top: 10px;
+}
+.img-upload{
+    height: 200px;
+    margin-right: 5px;
+}
+.form-upload-img{
+    overflow-y: auto;
+    max-height: 400px;
+}
+.thumb{
+    width: 100px;
+    float: right;
+}
+.form-group{
+    margin-bottom: 0px !important;
+}
+.form-group .form-control {
+    width: 100%;
+    padding: 5px 12px;
+    height: 30px !important;
+    /*border-radius: 0;*/
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: black;
+}
+
+.form-group .form-control option {
+    padding: 6px 12px;
+}
+
+.form-group .validate-text {
+    font-size: 12px;
+    display: block;
+    height: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: -4px;
+    color: red;
+}
+.form-group.invalid .form-control {
+    border-color: #cc0000;
+}
+
+.form-group.invalid label {
+    color: #cc0000;
+}
+.control-label span {
+    color: red;
+}
+.cursor{
+    cursor: pointer;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #847c7c;
+}
+.nav-tabs{
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 5px 5px;
+}
+.ShowImage{
+    width: 60px;
+}

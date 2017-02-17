@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tbladvertise" table="tbladvertise" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="advertiseId" type="java.lang.Integer">
+            <column name="advertise_id" />
+            <generator class="identity" />
+        </id>
+        <property name="advertiseTitle" type="string">
+            <column name="advertise_title" length="300" not-null="true" />
+        </property>
+        <property name="advertiseUrl" type="string">
+            <column name="advertise_url" length="200" />
+        </property>
+        <property name="advertiseNotes" type="string">
+            <column name="advertise_notes" length="65535" />
+        </property>
+        <property name="advertiseType" type="java.lang.Short">
+            <column name="advertise_type" />
+        </property>
+        <property name="advertiseDisplay" type="java.lang.Short">
+            <column name="advertise_display" />
+        </property>
+        <property name="advertiseImage" type="string">
+            <column name="advertise_image" length="200" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

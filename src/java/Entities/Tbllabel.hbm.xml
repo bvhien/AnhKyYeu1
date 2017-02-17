@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tbllabel" table="tbllabel" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="labelId" type="java.lang.Integer">
+            <column name="label_id" />
+            <generator class="identity" />
+        </id>
+        <property name="labelTitle" type="string">
+            <column name="label_title" length="200" />
+        </property>
+        <property name="labelInfors" type="string">
+            <column name="label_infors" length="65535" />
+        </property>
+        <property name="labelInforsEn" type="string">
+            <column name="label_infors_en" length="65535" />
+        </property>
+        <property name="labelNotes" type="string">
+            <column name="label_notes" length="65535" />
+        </property>
+    </class>
+</hibernate-mapping>

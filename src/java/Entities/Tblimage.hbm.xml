@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tblimage" table="tblimage" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="imageId" type="java.lang.Integer">
+            <column name="image_id" />
+            <generator class="identity" />
+        </id>
+        <property name="imageUrl" type="string">
+            <column name="image_url" length="200" />
+        </property>
+        <property name="imageAlbumId" type="java.lang.Integer">
+            <column name="image_album_id" />
+        </property>
+        <property name="imageCategoryId" type="java.lang.Integer">
+            <column name="image_category_id" />
+        </property>
+        <property name="imageSectionId" type="java.lang.Integer">
+            <column name="image_section_id" />
+        </property>
+        <property name="imageCreatedDate" type="timestamp">
+            <column name="image_created_date" length="19" />
+        </property>
+    </class>
+</hibernate-mapping>

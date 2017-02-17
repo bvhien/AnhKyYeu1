@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tblcustomer" table="tblcustomer" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="customerId" type="java.lang.Integer">
+            <column name="customer_id" />
+            <generator class="identity" />
+        </id>
+        <property name="customerFullname" type="string">
+            <column name="customer_fullname" length="45" />
+        </property>
+        <property name="customerAddress" type="string">
+            <column name="customer_address" length="65535" />
+        </property>
+        <property name="customerPhone" type="string">
+            <column name="customer_phone" length="45" />
+        </property>
+        <property name="customerMobile" type="string">
+            <column name="customer_mobile" length="45" />
+        </property>
+        <property name="customerOffice" type="string">
+            <column name="customer_office" length="65535" />
+        </property>
+        <property name="customerJobarea" type="string">
+            <column name="customer_jobarea" length="300" />
+        </property>
+        <property name="customerNotes" type="string">
+            <column name="customer_notes" length="65535" />
+        </property>
+        <property name="customerEmail" type="string">
+            <column name="customer_email" length="200" />
+        </property>
+        <property name="customerIdentityCard" type="string">
+            <column name="customer_identity_card" length="100">
+                <comment>CMND</comment>
+            </column>
+        </property>
+        <property name="customerUsername" type="string">
+            <column name="customer_username" length="100" not-null="true" />
+        </property>
+        <property name="customerPassword" type="string">
+            <column name="customer_password" length="100" not-null="true" />
+        </property>
+        <property name="customerTypeId" type="java.lang.Short">
+            <column name="customer_type_id" />
+        </property>
+        <property name="customerLogined" type="java.lang.Integer">
+            <column name="customer_logined">
+                <comment>So lan dang nhap</comment>
+            </column>
+        </property>
+        <property name="customerCreatedDate" type="timestamp">
+            <column name="customer_created_date" length="19">
+                <comment>Ngay tao tai khoan</comment>
+            </column>
+        </property>
+        <property name="customerModifiedDate" type="string">
+            <column name="customer_modified_date" length="45">
+                <comment>Ngay sua chua</comment>
+            </column>
+        </property>
+        <property name="customerIsactive" type="java.lang.Boolean">
+            <column name="customer_isactive">
+                <comment>Khoa hay khong</comment>
+            </column>
+        </property>
+        <property name="customerCode" type="string">
+            <column name="customer_code" length="45" />
+        </property>
+        <property name="customerCompany" type="string">
+            <column name="customer_company" length="45" />
+        </property>
+        <property name="customerProductId" type="java.lang.Integer">
+            <column name="customer_product_id">
+                <comment>Ma san pham duoc chon</comment>
+            </column>
+        </property>
+        <property name="customerArticleextendsId" type="java.lang.Integer">
+            <column name="customer_articleextends_id">
+                <comment>Ma bai viet mo rong -&gt; danh cho lua chon Khoa hoc</comment>
+            </column>
+        </property>
+        <property name="customerIp" type="string">
+            <column name="customer_ip" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>

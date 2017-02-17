@@ -1,0 +1,1012 @@
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.73
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 7 2016 21:27:23 UTC
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.73.0
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_79-b15
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\apache-tomcat-7.0.73
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\apache-tomcat-7.0.73
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-7.0.73\conf\logging.properties
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\apache-tomcat-7.0.73\endorsed
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\apache-tomcat-7.0.73
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\apache-tomcat-7.0.73
+Dec 24, 2016 12:21:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-7.0.73\temp
+Dec 24, 2016 12:21:20 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+Dec 24, 2016 12:21:20 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Dec 24, 2016 12:21:21 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+Dec 24, 2016 12:21:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8082"]
+Dec 24, 2016 12:21:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Dec 24, 2016 12:21:22 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3563 ms
+Dec 24, 2016 12:21:22 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 24, 2016 12:21:22 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.73
+Dec 24, 2016 12:21:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ROOT.xml
+Dec 24, 2016 12:21:24 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 12:21:24 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [123] milliseconds.
+Dec 24, 2016 12:21:24 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ROOT.xml has finished in 2,575 ms
+Dec 24, 2016 12:21:24 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Test.xml
+Dec 24, 2016 12:21:25 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\Test\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 12:21:29 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 12:21:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Test.xml has finished in 4,435 ms
+Dec 24, 2016 12:21:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\WebApplication1.xml
+Dec 24, 2016 12:21:30 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 12:21:32 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 12:21:32 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 12:21:33 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 12:21:33 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\WebApplication1.xml has finished in 4,539 ms
+Dec 24, 2016 12:21:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\docs
+Dec 24, 2016 12:21:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\docs has finished in 62 ms
+Dec 24, 2016 12:21:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\examples
+Dec 24, 2016 12:21:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\examples has finished in 2,294 ms
+Dec 24, 2016 12:21:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\host-manager
+Dec 24, 2016 12:21:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\host-manager has finished in 94 ms
+Dec 24, 2016 12:21:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\manager
+Dec 24, 2016 12:21:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\manager has finished in 130 ms
+Dec 24, 2016 12:21:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8082"]
+Dec 24, 2016 12:21:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Dec 24, 2016 12:21:36 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14274 ms
+Dec 24, 2016 12:21:38 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 12:21:38 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 12:21:39 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 12:21:39 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 12:21:39 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 12:21:40 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 12:49:01 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 12:49:01 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 12:49:02 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 12:49:02 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 12:49:02 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 12:49:03 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:24:56 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:24:56 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:24:57 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:24:57 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:24:58 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:24:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:27:41 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:27:41 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:27:42 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:27:42 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:27:43 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:27:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:28:49 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:28:49 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:28:50 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:28:50 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:28:50 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:28:51 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:29:16 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:29:16 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:29:17 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:29:17 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:29:17 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:29:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:30:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:30:57 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:30:58 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:30:58 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:30:58 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:30:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:30:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:30:58 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:30:59 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:30:59 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:31:00 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:31:00 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:35:07 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:35:07 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:35:08 PM org.apache.catalina.core.StandardContext reload
+SEVERE: Exception starting Context with name [/WebApplication1]
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4138)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1002)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:371)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:958)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1087)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> WebApplication1/User in servlet mapping
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3429)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3404)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1438)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1359)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:888)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:388)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5522)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 29 more
+
+Dec 24, 2016 1:35:08 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:36:32 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/WebApplication1] appears to have started a thread named [http-apr-8082-exec-64] but has failed to stop it. This is very likely to create a memory leak.
+Dec 24, 2016 1:36:32 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebApplication1]
+Dec 24, 2016 1:36:32 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\WebApplication1.xml
+Dec 24, 2016 1:36:32 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:36:33 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:36:33 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:36:34 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:36:34 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\WebApplication1.xml has finished in 2,087 ms
+Dec 24, 2016 1:36:34 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]] after start() had already been called. The second call will be ignored.
+Dec 24, 2016 1:36:34 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:36:35 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:36:35 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:36:35 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:36:36 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:36:36 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:47:30 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:47:30 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:47:31 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:47:31 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:47:31 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:47:32 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:48:49 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:48:49 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:48:50 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:48:50 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:48:50 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:48:50 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 1:49:38 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 1:49:38 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 1:49:39 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 1:49:39 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 1:49:39 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 1:49:40 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 2:02:16 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 2:02:16 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 2:02:17 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 2:02:17 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 2:02:17 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 2:02:17 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 2:02:33 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 2:02:33 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 2:02:34 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 2:02:34 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 2:02:34 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 2:02:34 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 2:51:16 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 2:51:16 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 2:51:17 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 2:51:17 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 2:51:17 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 2:51:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 2:55:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 2:55:46 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 2:55:47 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 2:55:47 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 2:55:47 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 2:55:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 2:56:51 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 2:56:51 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 2:56:52 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 2:56:52 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 2:56:53 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 2:56:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 2:56:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 2:56:53 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 2:56:54 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 2:56:54 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 2:56:54 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 2:56:55 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 2:57:03 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 2:57:03 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 2:57:04 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 2:57:04 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 2:57:04 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 2:57:05 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 2:59:16 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 2:59:16 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 2:59:16 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 2:59:18 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 2:59:18 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 2:59:18 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 2:59:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 3:00:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 3:00:20 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 3:00:20 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 3:00:21 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 3:00:21 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 3:00:22 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 3:00:22 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 3:02:30 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 3:02:30 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 3:02:31 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 3:02:31 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 3:02:32 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 3:02:32 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 3:02:36 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 3:02:36 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 3:02:37 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 3:02:37 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 3:02:37 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 3:02:37 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 3:06:25 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 3:06:25 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 3:06:26 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 3:06:26 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 3:06:26 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 3:06:27 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 3:07:07 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 3:07:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 3:07:07 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 3:07:08 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 3:07:08 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 3:07:08 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 3:07:09 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 3:08:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 3:08:06 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 3:08:06 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 3:08:07 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 3:08:07 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 3:08:08 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 3:08:08 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 3:08:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 3:08:44 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 3:08:44 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 3:08:45 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 3:08:45 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 3:08:45 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 3:08:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 3:09:07 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 3:09:07 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 3:09:07 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 3:09:08 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 3:09:08 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 3:09:09 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 3:09:09 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.73
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 7 2016 21:27:23 UTC
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.73.0
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_79-b15
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\apache-tomcat-7.0.73
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\apache-tomcat-7.0.73
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-7.0.73\conf\logging.properties
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\apache-tomcat-7.0.73\endorsed
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\apache-tomcat-7.0.73
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\apache-tomcat-7.0.73
+Dec 24, 2016 6:16:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-7.0.73\temp
+Dec 24, 2016 6:16:08 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+Dec 24, 2016 6:16:08 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Dec 24, 2016 6:16:09 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+Dec 24, 2016 6:16:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8082"]
+Dec 24, 2016 6:16:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Dec 24, 2016 6:16:10 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 5894 ms
+Dec 24, 2016 6:16:10 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 24, 2016 6:16:10 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.73
+Dec 24, 2016 6:16:10 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ROOT.xml
+Dec 24, 2016 6:16:13 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:16:13 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ROOT.xml has finished in 2,844 ms
+Dec 24, 2016 6:16:13 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Test.xml
+Dec 24, 2016 6:16:14 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\Test\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:16:17 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:16:17 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Test.xml has finished in 3,851 ms
+Dec 24, 2016 6:16:17 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\WebApplication1.xml
+Dec 24, 2016 6:16:17 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:16:18 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:16:18 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:16:19 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:16:19 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\WebApplication1.xml has finished in 1,998 ms
+Dec 24, 2016 6:16:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\docs
+Dec 24, 2016 6:16:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\docs has finished in 56 ms
+Dec 24, 2016 6:16:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\examples
+Dec 24, 2016 6:16:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\examples has finished in 2,316 ms
+Dec 24, 2016 6:16:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\host-manager
+Dec 24, 2016 6:16:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\host-manager has finished in 85 ms
+Dec 24, 2016 6:16:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\manager
+Dec 24, 2016 6:16:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\manager has finished in 116 ms
+Dec 24, 2016 6:16:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8082"]
+Dec 24, 2016 6:16:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Dec 24, 2016 6:16:22 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11424 ms
+Dec 24, 2016 6:16:23 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:16:23 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:16:24 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:16:24 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:16:25 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:16:25 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:17:41 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:17:41 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 6:17:41 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:17:42 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:17:42 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:17:42 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:17:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:20:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:20:06 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:20:07 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:20:07 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:20:08 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:20:08 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:23:29 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:23:29 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:23:30 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:23:30 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:23:31 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:23:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:24:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:24:13 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:24:14 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:24:14 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:24:15 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:24:15 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:24:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:24:20 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:24:21 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:24:21 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:24:21 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:24:22 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:26:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:26:58 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 6:26:58 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:26:59 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:26:59 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:26:59 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:27:00 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:27:09 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:27:09 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:27:10 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:27:10 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:27:11 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:27:11 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:27:21 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:27:21 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:27:22 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:27:22 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:27:22 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:27:22 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:29:03 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:29:03 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:29:04 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:29:05 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:29:05 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:29:05 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:29:42 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:29:42 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:29:43 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:29:43 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:29:43 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:29:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:29:49 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:29:49 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:29:50 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:29:50 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:29:50 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:29:50 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:30:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:30:06 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:30:07 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:30:07 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:30:07 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:30:08 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:30:39 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:30:39 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:30:40 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:30:40 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:30:40 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:30:41 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:32:36 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:32:36 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:32:37 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:32:37 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:32:37 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:32:38 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:32:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:32:46 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:32:47 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:32:47 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:32:47 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:32:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:33:22 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:33:22 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:33:23 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:33:23 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:33:23 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:33:23 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:34:03 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:34:03 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 6:34:03 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:34:04 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:34:04 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:34:04 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:34:05 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:34:05 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:34:05 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:34:06 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:34:06 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:34:06 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:34:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:34:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:34:47 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:34:48 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:34:49 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:34:49 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:34:49 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:34:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:34:58 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:34:59 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:34:59 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:34:59 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:35:00 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:35:33 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:35:33 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:35:34 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:35:34 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:35:34 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:35:34 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:35:39 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:35:39 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:35:40 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:35:40 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:35:40 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:35:40 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:36:11 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:36:11 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 6:36:12 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:36:12 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:36:13 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:36:13 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:36:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:36:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:36:13 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:36:14 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:36:14 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:36:15 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:36:15 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:36:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:36:35 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:36:36 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:36:36 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:36:36 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:36:36 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 6:37:11 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 6:37:11 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 6:37:11 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 6:37:11 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 6:37:11 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 6:37:12 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 6:37:12 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 7:45:21 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 7:45:21 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 7:45:21 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 7:45:22 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 7:45:22 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 7:45:22 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 7:45:23 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 7:45:26 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 7:45:26 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 7:45:27 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 7:45:27 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 7:45:27 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 7:45:28 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 7:45:30 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] has started
+Dec 24, 2016 7:45:30 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 24, 2016 7:45:31 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 24, 2016 7:45:31 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Dec 24, 2016 7:45:31 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Dec 24, 2016 7:45:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication1] is completed
+Dec 24, 2016 7:49:00 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Dec 24, 2016 7:49:00 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8082"]
+Dec 24, 2016 7:49:00 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Dec 24, 2016 7:49:00 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 24, 2016 7:49:00 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/Test] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+Dec 24, 2016 7:49:00 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 24, 2016 7:49:00 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8082"]
+Dec 24, 2016 7:49:00 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Dec 24, 2016 7:49:00 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8082"]
+Dec 24, 2016 7:49:00 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]

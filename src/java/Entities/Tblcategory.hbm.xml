@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tblcategory" table="tblcategory" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="categoryId" type="java.lang.Short">
+            <column name="category_id" />
+            <generator class="identity" />
+        </id>
+        <property name="categoryName" type="string">
+            <column name="category_name" length="200" not-null="true" />
+        </property>
+        <property name="categorySectionId" type="short">
+            <column name="category_section_id" not-null="true" />
+        </property>
+        <property name="categoryNotes" type="string">
+            <column name="category_notes" length="65535" />
+        </property>
+        <property name="categoryCreatedDate" type="timestamp">
+            <column name="category_created_date" length="19" />
+        </property>
+        <property name="categoryCreatedAuthorId" type="java.lang.Integer">
+            <column name="category_created_author_id" />
+        </property>
+        <property name="categoryLastModified" type="string">
+            <column name="category_last_modified" length="50" />
+        </property>
+        <property name="categoryManagerId" type="java.lang.Integer">
+            <column name="category_manager_id" />
+        </property>
+        <property name="categoryEnable" type="java.lang.Boolean">
+            <column name="category_enable" />
+        </property>
+        <property name="categoryDelete" type="java.lang.Boolean">
+            <column name="category_delete" />
+        </property>
+        <property name="categoryImage" type="string">
+            <column name="category_image" length="200" />
+        </property>
+        <property name="categoryNameEn" type="string">
+            <column name="category_name_en" length="200" />
+        </property>
+        <property name="categoryLanguage" type="java.lang.Short">
+            <column name="category_language" />
+        </property>
+    </class>
+</hibernate-mapping>

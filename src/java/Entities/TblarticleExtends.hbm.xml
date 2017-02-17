@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.TblarticleExtends" table="tblarticle_extends" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="aeId" type="java.lang.Integer">
+            <column name="ae_id" />
+            <generator class="identity" />
+        </id>
+        <property name="aeText2001" type="string">
+            <column name="ae_text200_1" length="200" />
+        </property>
+        <property name="aeText2002" type="string">
+            <column name="ae_text200_2" length="200" />
+        </property>
+        <property name="aeText2003" type="string">
+            <column name="ae_text200_3" length="200" />
+        </property>
+        <property name="aeText2004" type="string">
+            <column name="ae_text200_4" length="200" />
+        </property>
+        <property name="aeText2005" type="string">
+            <column name="ae_text200_5" length="200" />
+        </property>
+        <property name="aeByte1" type="java.lang.Short">
+            <column name="ae_byte_1" />
+        </property>
+        <property name="aeByte2" type="java.lang.Short">
+            <column name="ae_byte_2" />
+        </property>
+        <property name="aeByte3" type="java.lang.Short">
+            <column name="ae_byte_3" />
+        </property>
+        <property name="aeByte4" type="java.lang.Short">
+            <column name="ae_byte_4" />
+        </property>
+        <property name="aeByte5" type="java.lang.Short">
+            <column name="ae_byte_5" />
+        </property>
+        <property name="aeShort1" type="java.lang.Short">
+            <column name="ae_short_1" />
+        </property>
+        <property name="aeShort2" type="java.lang.Short">
+            <column name="ae_short_2" />
+        </property>
+        <property name="aeInt1" type="java.lang.Integer">
+            <column name="ae_int_1" />
+        </property>
+        <property name="aeInt2" type="java.lang.Integer">
+            <column name="ae_int_2" />
+        </property>
+        <property name="aeText1" type="string">
+            <column name="ae_text_1" length="65535" />
+        </property>
+        <property name="aeText2" type="string">
+            <column name="ae_text_2" length="65535" />
+        </property>
+        <property name="aeLongtext" type="string">
+            <column name="ae_longtext" />
+        </property>
+        <property name="aeArticleId" type="int">
+            <column name="ae_article_id" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

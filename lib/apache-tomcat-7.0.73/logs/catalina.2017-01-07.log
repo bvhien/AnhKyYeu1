@@ -1,0 +1,558 @@
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.73
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 7 2016 21:27:23 UTC
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.73.0
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_79-b15
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\apache-tomcat-7.0.73
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\apache-tomcat-7.0.73
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx3052m
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-7.0.73\conf\logging.properties
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\apache-tomcat-7.0.73\endorsed
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\apache-tomcat-7.0.73
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\apache-tomcat-7.0.73
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-7.0.73\temp
+Jan 07, 2017 10:19:38 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+Jan 07, 2017 10:19:38 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jan 07, 2017 10:19:38 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+Jan 07, 2017 10:19:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8086"]
+Jan 07, 2017 10:19:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1571 ms
+Jan 07, 2017 10:19:38 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 07, 2017 10:19:38 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.73
+Jan 07, 2017 10:19:38 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Ajax.xml
+Jan 07, 2017 10:19:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Ajax.xml has finished in 570 ms
+Jan 07, 2017 10:19:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\AnhKyYeu.xml
+Jan 07, 2017 10:19:40 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:19:42 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:19:42 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:19:43 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:19:43 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\AnhKyYeu.xml has finished in 4,348 ms
+Jan 07, 2017 10:19:43 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ATruongDHBK_AnhKyYeu.xml
+Jan 07, 2017 10:19:44 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\ATruongDHBK_AnhKyYeu\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:19:46 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:19:46 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:19:47 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:19:47 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ATruongDHBK_AnhKyYeu.xml has finished in 3,907 ms
+Jan 07, 2017 10:19:47 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ROOT.xml
+Jan 07, 2017 10:19:50 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:19:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ROOT.xml has finished in 2,485 ms
+Jan 07, 2017 10:19:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Test.xml
+Jan 07, 2017 10:19:51 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\Test\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:19:54 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:19:54 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Test.xml has finished in 4,751 ms
+Jan 07, 2017 10:19:54 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\WebApplication1.xml
+Jan 07, 2017 10:19:56 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:19:59 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:20:00 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:20:00 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:20:00 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\WebApplication1.xml has finished in 5,743 ms
+Jan 07, 2017 10:20:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\docs
+Jan 07, 2017 10:20:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\docs has finished in 63 ms
+Jan 07, 2017 10:20:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\examples
+Jan 07, 2017 10:20:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\examples has finished in 3,828 ms
+Jan 07, 2017 10:20:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\host-manager
+Jan 07, 2017 10:20:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\host-manager has finished in 99 ms
+Jan 07, 2017 10:20:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\manager
+Jan 07, 2017 10:20:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\manager has finished in 201 ms
+Jan 07, 2017 10:20:04 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8086"]
+Jan 07, 2017 10:20:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jan 07, 2017 10:20:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 26175 ms
+Jan 07, 2017 10:20:07 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] has started
+Jan 07, 2017 10:20:07 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:20:08 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:20:08 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:20:09 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:20:09 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] is completed
+Jan 07, 2017 10:20:16 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+Jan 07, 2017 10:20:16 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+Jan 07, 2017 10:20:16 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Jan 07, 2017 10:20:16 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Jan 07, 2017 10:20:16 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000043: Configuring from resource: /hibernate.cfg.xml
+Jan 07, 2017 10:20:16 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: HHH000040: Configuration resource: /hibernate.cfg.xml
+Jan 07, 2017 10:20:16 PM org.hibernate.internal.util.xml.DTDEntityResolver resolveEntity
+WARN: HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+Jan 07, 2017 10:20:16 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+Jan 07, 2017 10:20:16 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+Jan 07, 2017 10:20:16 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+Jan 07, 2017 10:20:16 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+Jan 07, 2017 10:20:16 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+Jan 07, 2017 10:20:17 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Jan 07, 2017 10:20:17 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Jan 07, 2017 10:20:17 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+Jan 07, 2017 10:20:17 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000046: Connection properties: {user=root, password=****}
+Jan 07, 2017 10:20:17 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000006: Autocommit mode: false
+Jan 07, 2017 10:20:17 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Jan 07, 2017 10:20:18 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Jan 07, 2017 10:20:18 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Jan 07, 2017 10:20:18 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jan 07, 2017 10:34:47 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jan 07, 2017 10:34:47 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/AnhKyYeu] appears to have started a thread named [pool-5-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Jan 07, 2017 10:34:48 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/AnhKyYeu]
+Jan 07, 2017 10:36:27 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jan 07, 2017 10:36:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8086"]
+Jan 07, 2017 10:36:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Jan 07, 2017 10:36:27 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jan 07, 2017 10:36:27 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8086"]
+Jan 07, 2017 10:36:27 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Jan 07, 2017 10:36:27 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8086"]
+Jan 07, 2017 10:36:27 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.73
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 7 2016 21:27:23 UTC
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.73.0
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_79-b15
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\apache-tomcat-7.0.73
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\apache-tomcat-7.0.73
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx3052m
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-7.0.73\conf\logging.properties
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\apache-tomcat-7.0.73\endorsed
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\apache-tomcat-7.0.73
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\apache-tomcat-7.0.73
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-7.0.73\temp
+Jan 07, 2017 10:39:24 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+Jan 07, 2017 10:39:24 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jan 07, 2017 10:39:24 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+Jan 07, 2017 10:39:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8086"]
+Jan 07, 2017 10:39:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1223 ms
+Jan 07, 2017 10:39:24 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 07, 2017 10:39:24 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.73
+Jan 07, 2017 10:39:24 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Ajax.xml
+Jan 07, 2017 10:39:25 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Ajax.xml has finished in 539 ms
+Jan 07, 2017 10:39:25 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ATruongDHBK_AnhKyYeu.xml
+Jan 07, 2017 10:39:25 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\ATruongDHBK_AnhKyYeu\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:39:26 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:39:26 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:39:27 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:39:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ATruongDHBK_AnhKyYeu.xml has finished in 2,321 ms
+Jan 07, 2017 10:39:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ROOT.xml
+Jan 07, 2017 10:39:27 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:39:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\ROOT.xml has finished in 235 ms
+Jan 07, 2017 10:39:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Test.xml
+Jan 07, 2017 10:39:27 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\Test\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:39:29 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:39:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\Test.xml has finished in 1,350 ms
+Jan 07, 2017 10:39:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\WebApplication1.xml
+Jan 07, 2017 10:39:29 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\WebApplication1\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:39:30 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:39:30 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named com.service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:39:30 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:39:31 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\WebApplication1.xml has finished in 1,965 ms
+Jan 07, 2017 10:39:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\docs
+Jan 07, 2017 10:39:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\docs has finished in 20 ms
+Jan 07, 2017 10:39:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\examples
+Jan 07, 2017 10:39:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\examples has finished in 231 ms
+Jan 07, 2017 10:39:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\host-manager
+Jan 07, 2017 10:39:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\host-manager has finished in 38 ms
+Jan 07, 2017 10:39:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.73\webapps\manager
+Jan 07, 2017 10:39:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\apache-tomcat-7.0.73\webapps\manager has finished in 47 ms
+Jan 07, 2017 10:39:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8086"]
+Jan 07, 2017 10:39:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jan 07, 2017 10:39:31 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6849 ms
+Jan 07, 2017 10:39:32 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\AnhKyYeu.xml
+Jan 07, 2017 10:39:32 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:39:33 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:39:33 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:39:34 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:39:34 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\apache-tomcat-7.0.73\conf\Catalina\localhost\AnhKyYeu.xml has finished in 2,106 ms
+Jan 07, 2017 10:39:34 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AnhKyYeu]] after start() had already been called. The second call will be ignored.
+Jan 07, 2017 10:39:38 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+Jan 07, 2017 10:39:38 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000043: Configuring from resource: /hibernate.cfg.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: HHH000040: Configuration resource: /hibernate.cfg.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.internal.util.xml.DTDEntityResolver resolveEntity
+WARN: HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+Jan 07, 2017 10:39:38 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Jan 07, 2017 10:39:38 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Jan 07, 2017 10:39:38 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+Jan 07, 2017 10:39:38 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000046: Connection properties: {user=root, password=****}
+Jan 07, 2017 10:39:38 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000006: Autocommit mode: false
+Jan 07, 2017 10:39:38 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Jan 07, 2017 10:39:39 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Jan 07, 2017 10:39:39 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Jan 07, 2017 10:39:39 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jan 07, 2017 10:46:38 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] has started
+Jan 07, 2017 10:46:38 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jan 07, 2017 10:46:38 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/AnhKyYeu] appears to have started a thread named [pool-4-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Jan 07, 2017 10:46:38 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:46:39 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:46:39 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:46:40 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:46:41 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] is completed
+Jan 07, 2017 10:47:08 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] has started
+Jan 07, 2017 10:47:08 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:47:09 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:47:09 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:47:10 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:47:10 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] is completed
+Jan 07, 2017 10:49:02 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] has started
+Jan 07, 2017 10:49:02 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:49:03 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:49:03 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:49:04 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:49:04 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] is completed
+Jan 07, 2017 10:49:33 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] has started
+Jan 07, 2017 10:49:33 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:49:35 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:49:35 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:49:35 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:49:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] is completed
+Jan 07, 2017 10:49:40 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] has started
+Jan 07, 2017 10:49:40 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\build\web\WEB-INF\lib\javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 07, 2017 10:49:42 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 07, 2017 10:49:42 PM org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer addServletWithApplication
+INFO: Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+Jan 07, 2017 10:49:42 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Jan 07, 2017 10:49:42 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/AnhKyYeu] is completed
+Jan 07, 2017 10:49:54 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+Jan 07, 2017 10:49:54 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000043: Configuring from resource: /hibernate.cfg.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: HHH000040: Configuration resource: /hibernate.cfg.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.internal.util.xml.DTDEntityResolver resolveEntity
+WARN: HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration addResource
+INFO: HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+Jan 07, 2017 10:49:54 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Jan 07, 2017 10:49:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Jan 07, 2017 10:49:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+Jan 07, 2017 10:49:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000046: Connection properties: {user=root, password=****}
+Jan 07, 2017 10:49:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000006: Autocommit mode: false
+Jan 07, 2017 10:49:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Jan 07, 2017 10:49:55 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Jan 07, 2017 10:49:55 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Jan 07, 2017 10:49:55 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory

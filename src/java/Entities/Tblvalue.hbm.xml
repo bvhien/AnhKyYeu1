@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tblvalue" table="tblvalue" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="valueId" type="java.lang.Integer">
+            <column name="value_id" />
+            <generator class="identity" />
+        </id>
+        <property name="value1" type="string">
+            <column name="value_1" length="200" />
+        </property>
+        <property name="value2" type="string">
+            <column name="value_2" length="200" />
+        </property>
+        <property name="value3" type="string">
+            <column name="value_3" length="200" />
+        </property>
+        <property name="value4" type="string">
+            <column name="value_4" length="200" />
+        </property>
+        <property name="value5" type="string">
+            <column name="value_5" length="200" />
+        </property>
+        <property name="value6" type="string">
+            <column name="value_6" length="200" />
+        </property>
+        <property name="value7" type="string">
+            <column name="value_7" length="200" />
+        </property>
+        <property name="value8" type="string">
+            <column name="value_8" length="200" />
+        </property>
+        <property name="value9" type="string">
+            <column name="value_9" length="200" />
+        </property>
+        <property name="value10" type="string">
+            <column name="value_10" length="200" />
+        </property>
+        <property name="value11" type="string">
+            <column name="value_11" length="500" />
+        </property>
+        <property name="value12" type="string">
+            <column name="value_12" length="500" />
+        </property>
+        <property name="value13" type="string">
+            <column name="value_13" length="500" />
+        </property>
+        <property name="value14" type="string">
+            <column name="value_14" length="500" />
+        </property>
+        <property name="value15" type="string">
+            <column name="value_15" length="500" />
+        </property>
+        <property name="value16" type="string">
+            <column name="value_16" length="500" />
+        </property>
+        <property name="value17" type="string">
+            <column name="value_17" length="500" />
+        </property>
+        <property name="value18" type="string">
+            <column name="value_18" length="500" />
+        </property>
+        <property name="value19" type="string">
+            <column name="value_19" length="500" />
+        </property>
+        <property name="value20" type="string">
+            <column name="value_20" length="500" />
+        </property>
+        <property name="valueLabelId" type="short">
+            <column name="value_label_id" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

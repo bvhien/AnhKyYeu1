@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tblfeedback" table="tblfeedback" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="feedbackId" type="java.lang.Integer">
+            <column name="feedback_id" />
+            <generator class="identity" />
+        </id>
+        <property name="feedbackTitle" type="string">
+            <column name="feedback_title" length="200" />
+        </property>
+        <property name="feedbackContent" type="string">
+            <column name="feedback_content" length="65535" not-null="true" />
+        </property>
+        <property name="feedbackFullname" type="string">
+            <column name="feedback_fullname" length="100" not-null="true" />
+        </property>
+        <property name="feedbackAddress" type="string">
+            <column name="feedback_address" length="200" />
+        </property>
+        <property name="feedbackEmail" type="string">
+            <column name="feedback_email" length="100" not-null="true" />
+        </property>
+        <property name="feedbackPhone" type="string">
+            <column name="feedback_phone" length="45" />
+        </property>
+        <property name="feedbackProductId" type="java.lang.Integer">
+            <column name="feedback_product_id" />
+        </property>
+        <property name="feedbackCreatedDate" type="timestamp">
+            <column name="feedback_created_date" length="19" />
+        </property>
+        <property name="feedbackView" type="java.lang.Boolean">
+            <column name="feedback_view" />
+        </property>
+        <property name="feedbackCompany" type="string">
+            <column name="feedback_company" length="200" />
+        </property>
+    </class>
+</hibernate-mapping>

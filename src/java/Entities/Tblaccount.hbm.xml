@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 10, 2017 12:03:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Tblaccount" table="tblaccount" catalog="motchangduong_data" optimistic-lock="version">
+        <id name="accountId" type="java.lang.Integer">
+            <column name="account_id" />
+            <generator class="identity" />
+        </id>
+        <property name="accountCustomerId" type="int">
+            <column name="account_customer_id" not-null="true">
+                <comment>Ma khach hang</comment>
+            </column>
+        </property>
+        <property name="accountMoney" type="java.lang.Integer">
+            <column name="account_money">
+                <comment>So tien nap vao</comment>
+            </column>
+        </property>
+        <property name="accountActivedDate" type="timestamp">
+            <column name="account_actived_date" length="19">
+                <comment>Ngay nap tien</comment>
+            </column>
+        </property>
+        <property name="accountNotes" type="string">
+            <column name="account_notes" length="65535" />
+        </property>
+        <property name="accountCurrentMoney" type="java.lang.Integer">
+            <column name="account_current_money">
+                <comment>So tien hien tai</comment>
+            </column>
+        </property>
+        <property name="accountType" type="java.lang.Short">
+            <column name="account_type">
+                <comment>Loai giao dich</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>
