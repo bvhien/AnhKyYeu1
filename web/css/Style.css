@@ -102,3 +102,21 @@ hr{
 .ShowImage{
     width: 60px;
 }
+.multipleImage{
+    height: 120px;
+    width: 110px;
+    padding: 5px;
+    float: left;
+}
+.ImageContainer{
+    border: 1px solid rosybrown;
+}
+.ckImage{
+    margin-left: 0px !important;
+}
+.ImtemImage{
+    width: 110px;
+    height: 141px;
+    float: left;
+    margin-bottom: 5px;
+}

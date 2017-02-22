@@ -186,7 +186,7 @@
                             <a href="Album.jsp"><i class="fa fa-fw fa-folder-open-o"></i> Album</a>
                         </li>
                         <li>
-                            <a href="tables.html"><i class="fa fa-fw fa-table"></i> Tables</a>
+                            <a href="Image.jsp"><i class="fa fa-fw fa-table"></i> Image</a>
                         </li>
                         <li>
                             <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
