@@ -94,6 +94,8 @@ public class AlbumResource {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        
+        
         //-----Danh sach Album--------
         String sqlAlbum = "select album.albumId,album.albumTitle,"
                 + "(select para.paraContent from " + Tblparameter.class.getName() + " as para where para.paraCode = album.albumStatus )as albumStatus,"

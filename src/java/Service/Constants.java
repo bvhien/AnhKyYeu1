@@ -66,6 +66,7 @@ public class Constants {
 
                 // write the image to a file
                 File outputfile = new File("../../../web/Guest-Image/" + ImageName + ".png");
+                System.out.println("outputfile:"+outputfile.getAbsolutePath());
                 ImageIO.write(image, "png", outputfile);
                 System.out.println("=========upload anh thanh cong===========");
             } catch (Exception e) {
