@@ -1,0 +1,7 @@
+02-Mar-2017 00:01:09.374 INFO [http-apr-8086-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+02-Mar-2017 00:02:47.022 INFO [http-apr-8086-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+02-Mar-2017 00:04:03.655 INFO [http-apr-8086-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+02-Mar-2017 00:08:38.120 INFO [http-apr-8086-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+02-Mar-2017 00:09:01.292 INFO [http-apr-8086-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+02-Mar-2017 00:09:12.143 INFO [http-apr-8086-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+02-Mar-2017 00:10:07.096 INFO [http-apr-8086-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'

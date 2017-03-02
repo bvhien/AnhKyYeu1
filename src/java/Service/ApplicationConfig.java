@@ -34,6 +34,7 @@ public class ApplicationConfig extends Application {
         resources.add(Service.ImageResource.class);
         resources.add(Service.LoginResource.class);
         resources.add(Service.ThamSoResource.class);
+        resources.add(Service.UserResource.class);
     }
     
 }

@@ -23,6 +23,7 @@
         <script src="../../js/Libjs/angular.min.js" type="text/javascript"></script>
         <script src="../../js/Libjs/angular-route.min.js" type="text/javascript"></script>
         <script src="../../js/Libjs/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="../../js/Libjs/jquery.ui.datepicker-vi.js" type="text/javascript"></script>
         <script src="../../js/Libjs/UTF-8.js" type="text/javascript"></script>
         <script src="../../js/Libjs/editor.js" type="text/javascript"></script>
         <!--<script src="../js/Libjs/jquery.dataTables.js" type="text/javascript"></script>-->
@@ -54,15 +55,19 @@
                 var url = window.location.href;
                 $('.navbar-nav li').each(function () {
                     console.log(this.firstElementChild.href);
-                    if (url ===(this.firstElementChild.href)) {
+                    if (url === (this.firstElementChild.href)) {
                         $(this).addClass('active');
                     }
                 });
-                
-                
+
+
                 //                $('#example').DataTable();
                 $("#txtEditor").Editor();
                 List();
+                $(function () {
+                    $(".datepicker").datepicker({changeMonth: true, changeYear: true, dateFormat: 'dd/mm/yy', yearRange: '-70y:+70y'});
+                    ;
+                });
             });
         </script>
         <script src="../../js/Validate.js" type="text/javascript"></script>
@@ -171,7 +176,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>&nbsp;<b id="ThongTinTK"></b><b class="caret">&nbsp;</b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="#" onclick="DangXuat();"><i class="fa fa-fw fa-power-off"></i> Đăng xuất</a>
+                                <a href="#" onclick="DangXuat()
+                                            ;"><i class="fa fa-fw fa-power-off"></i> Đăng xuất</a>
                             </li>
                         </ul>
                     </li>
@@ -186,10 +192,10 @@
                             <a href="Album.jsp"><i class="fa fa-fw fa-folder-open-o"></i> Album</a>
                         </li>
                         <li>
-                            <a href="Image.jsp"><i class="fa fa-fw fa-table"></i> Image</a>
+                            <a href="Image.jsp"><i class="fa fa-fw fa-picture-o"></i> Image</a>
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
+                            <a href="User.jsp"><i class="fa fa-fw fa-user-circle"></i> Người dùng</a>
                         </li>
                         <li>
                             <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>

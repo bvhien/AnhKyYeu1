@@ -120,7 +120,7 @@ public class ImageResource {
         sf = new Configuration().configure().buildSessionFactory();
         Session session = sf.openSession();
         Transaction transaction = session.beginTransaction();
-        String sqlAlbum = "select album from " + Tblalbum.class.getName() + " album where album.albumCategoryId = " + idCategory;
+        String sqlAlbum = "select album from " + Tblalbum.class.getName() + " album where album.albumCategoryId = " + idCategory+"and album.albumStatus = '0'";
         Query query_tblAlbum = session.createQuery(sqlAlbum);
         List<Tblalbum> tblalbum = query_tblAlbum.list();
         JSONArray arrAlbum = new JSONArray();
@@ -174,6 +174,70 @@ public class ImageResource {
             jsonReturn.put("errorCode", "SUCCESS");
             jsonReturn.put("errorMessages", "Thanh Cong");
             transaction.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            transaction.rollback();
+        }
+        return jsonReturn.toString();
+    }
+    
+    //======Lay danh sach Image
+    @Path("/LayDSImage/{AlbumId}")
+    @GET
+    @Consumes("application/json")
+    @Produces("application/json")
+    public String LayDSImage(@Context HttpServletRequest requestContext, @PathParam("AlbumId") String AlbumId) throws JSONException, UnsupportedEncodingException {
+        requestContext.setCharacterEncoding("UTF-8");
+        sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.openSession();
+        Transaction transaction = session.beginTransaction();
+        String sqlImage = "select image from " + Tblimage.class.getName() + " image where image.imageAlbumId = " + AlbumId;
+        Query query_tblImage = session.createQuery(sqlImage);
+        List<Tblimage> tblimage = query_tblImage.list();
+        JSONArray arrImage = new JSONArray();
+        JSONObject jsonReturn = new JSONObject();
+        jsonReturn.put("errorCode", "ERROR");
+        jsonReturn.put("errorMessages", "L\u1ED7i h\u1EC7 th\u1ED1ng");
+        try {
+            for (Tblimage image : tblimage) {
+                JSONObject jsonImage = new JSONObject();
+                jsonImage.put("imageId", image.getImageId());
+                jsonImage.put("imageUrl", image.getImageUrl());
+                arrImage.put(jsonImage);
+            }
+            jsonReturn.put("errorCode", "SUCCESS");
+            jsonReturn.put("errorMessages", "Thanh Cong");
+            jsonReturn.put("AlbumImage", arrImage);
+            transaction.commit();
+        } catch (Exception e) {
+            transaction.rollback();
+            e.printStackTrace();
+        }
+        return (jsonReturn.toString());
+    }
+    
+    //==Xóa 1 bản ghi trong Image
+    @Path("/DeleteImage/{imageId}/{imageUrl}")
+    @GET
+    @Consumes("application/json")
+    @Produces("application/json")
+    public String DeleteImage(@Context HttpServletRequest requestContext,@PathParam("imageId") String imageId,@PathParam("imageUrl") String imageUrl) throws JSONException, UnsupportedEncodingException {
+        requestContext.setCharacterEncoding("UTF-8");
+        JSONObject jsonReturn = new JSONObject();
+        sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.openSession();
+        Transaction transaction = session.beginTransaction();
+        jsonReturn.put("errorCode", "ERROR");
+        jsonReturn.put("errorMessages", "L\u1ED7i h\u1EC7 th\u1ED1ng");
+        try {
+            Tblimage image = new Tblimage();
+            if (Constants.DeleteImage(imageUrl)) {
+                image.setImageId(Integer.parseInt(imageId));
+                session.delete(image);
+                transaction.commit();
+                jsonReturn.put("errorCode", "SUCCESS");
+                jsonReturn.put("errorMessages", "Thanh Cong");
+            }
         } catch (Exception e) {
             e.printStackTrace();
             transaction.rollback();

@@ -98,7 +98,7 @@ public class AlbumResource {
         
         //-----Danh sach Album--------
         String sqlAlbum = "select album.albumId,album.albumTitle,"
-                + "(select para.paraContent from " + Tblparameter.class.getName() + " as para where para.paraCode = album.albumStatus )as albumStatus,"
+                + "(select para.paraContent from " + Tblparameter.class.getName() + " as para where para.paraCode = album.albumStatus and para.paraStatus = '1')as albumStatus,"
                 + "album.albumImage,album.albumStatus as albumStatus1,"
                 + "(select category.categoryName from " + Tblcategory.class.getName() + " as category where category.categoryId = album.albumCategoryId ) as albumCategory,"
                 + "album.albumCategoryId as albumCategory1,album.albumNotes,album.albumCreatDate,album.albumEditDate "

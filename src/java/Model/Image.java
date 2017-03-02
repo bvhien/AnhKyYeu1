@@ -47,7 +47,19 @@ public class Image extends HttpServlet {
             String data = request.getParameter("data");
             String CategoryId = request.getParameter("CategoryId");
             String AlbumId = request.getParameter("AlbumId");
-            String strjson = ServiceUtils.callService(Constants.fileName + "/Image/LuuAnh/"+CategoryId+"/"+AlbumId, "POST", data);
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Image/LuuAnh/" + CategoryId + "/" + AlbumId, "POST", data);
+            json = new JSONObject(strjson);
+            writer.write(json.toString());
+        } else if (type.equals("LayDSImage")) {
+            @SuppressWarnings("UnusedAssignment")
+            String data = request.getParameter("data");
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Image/LayDSImage/" + data, "GET", null);
+            json = new JSONObject((strjson));
+            writer.write(json.toString());
+        } else if (type.equals("DeleteImage")) {
+            String imageId = request.getParameter("imageId");
+            String imageUrl = request.getParameter("imageUrl");
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Image/DeleteImage/" + imageId + "/" + imageUrl, "GET", null);
             json = new JSONObject(strjson);
             writer.write(json.toString());
         }

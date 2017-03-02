@@ -66,7 +66,7 @@ public class Constants {
 
                 // write the image to a file
                 File outputfile = new File("../../../web/Guest-Image/" + ImageName + ".png");
-                System.out.println("outputfile:"+outputfile.getAbsolutePath());
+                System.out.println("outputfile:" + outputfile.getAbsolutePath());
                 ImageIO.write(image, "png", outputfile);
                 System.out.println("=========upload anh thanh cong===========");
             } catch (Exception e) {
@@ -80,9 +80,9 @@ public class Constants {
 
     @SuppressWarnings({"UnusedAssignment", "null"})
     public static boolean DeleteImage(String ImageName) {
-        boolean ck =true;
+        boolean ck = true;
         try {
-            File fileimage = new File("web/Guest-Image/"+ImageName);
+            File fileimage = new File("web/Guest-Image/" + ImageName);
             String UrlAbsolute = fileimage.getAbsolutePath();
             UrlAbsolute = UrlAbsolute.replace("lib\\apache-tomcat-8.0.39\\bin\\", "");
             File fileimage1 = new File(UrlAbsolute);
@@ -91,8 +91,8 @@ public class Constants {
                     fileimage1.delete();
                     if (!fileimage1.exists()) {
                         System.out.println("Xoa thanh cong");
-                       ck = true;
-                    }else{
+                        ck = true;
+                    } else {
                         System.out.println("Xoa khong thanh cong");
                         ck = false;
                     }
@@ -103,6 +103,29 @@ public class Constants {
             ck = false;
         }
         return ck;
+    }
+
+    public static String greatMD5(String str) {
+        String generatedMD5 = null;
+        try {
+            // Create MessageDigest instance for MD5
+            MessageDigest md = MessageDigest.getInstance("MD5");
+            //Add password bytes to digest
+            md.update(str.getBytes());
+            //Get the hash's bytes 
+            byte[] bytes = md.digest();
+            //This bytes[] has bytes in decimal format;
+            //Convert it to hexadecimal format
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < bytes.length; i++) {
+                sb.append(Integer.toString((bytes[i] & 0xff) + 0x100, 16).substring(1));
+            }
+            //Get complete hashed password in hex format
+            generatedMD5 = sb.toString();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return generatedMD5;
     }
 
     public static void main(String[] args) throws IOException {

@@ -1,7 +1,6 @@
 app.controller('Ctrl', function ($scope) {
     $(document).ready(function () {
         $scope.LayThongTin();
-
         $("#Image-dialog-save").dialog({
             autoOpen: false,
             resizable: false,
@@ -11,7 +10,7 @@ app.controller('Ctrl', function ($scope) {
             buttons: {
                 "Đóng": function () {
                     $("#Image-dialog-save").dialog("close");
-                    $scope.LayThongTin();
+                    $scope.LayDSAnh($scope.Image.AlbumId);
                 }
             }
         });
@@ -44,13 +43,11 @@ app.controller('Ctrl', function ($scope) {
             $scope.stepsModel.push(e.target.result);
         });
     };
-
     $scope.ClearImage = function (Index) {
         if (Index != null && Index != undefined && ($scope.stepsModel.length > 0)) {
             $scope.stepsModel.splice(Index, 1)
         }
     };
-
     $scope.LayThongTin = function () {
         $.ajax({
             url: "../../Image",
@@ -73,7 +70,6 @@ app.controller('Ctrl', function ($scope) {
             }
         });
     };
-
     $scope.LayDSAlbum = function (CategoryId) {
         $.ajax({
             url: "../../Image",
@@ -88,14 +84,13 @@ app.controller('Ctrl', function ($scope) {
                         $scope.Album = resp.Album;
                         if ($scope.Album != null && $scope.Album != undefined) {
                             $scope.Image.AlbumId = $scope.Album[0].AlbumId;
+                            $scope.LayDSAnh($scope.Image.AlbumId);
                         }
                     }
                 });
             }
         });
     };
-
-
     //-------Them anh vao Album--------
 
     $scope.ThemImage = function (CategoryId, AlbumId) {
@@ -115,6 +110,8 @@ app.controller('Ctrl', function ($scope) {
                 success: function (resp) {
                     $scope.$apply(function () {
                         if (resp.errorCode == 'SUCCESS') {
+                            $scope.stepsModel = [];
+                            $scope.LayDSAnh(AlbumId);
                             $("#Image-dialog-save").dialog("open");
                         }
                     });
@@ -122,4 +119,55 @@ app.controller('Ctrl', function ($scope) {
             });
         }
     };
+    //Lay Album Anh
+    $scope.LayDSAnh = function (AlbumId) {
+        $.ajax({
+            url: "../../Image",
+            type: 'GET',
+            data: {
+                type: "LayDSImage",
+                data: AlbumId
+            },
+            success: function (resp) {
+                $scope.$apply(function () {
+                    if (resp.errorCode == 'SUCCESS') {
+                        $scope.AlbumImage = resp.AlbumImage;
+                    }
+                });
+            }
+        });
+    };
+    //-----------Xóa ảnh trong Album
+
+    $scope.DeleteImage = function (imageId, imageUrl) {
+        $("#Image-dialog-thongbao").dialog({
+            buttons: {
+                "Có": function () {
+                    $.ajax({
+                        url: "../../Image",
+                        type: 'GET',
+                        data: {
+                            type: "DeleteImage",
+                            imageId: imageId,
+                            imageUrl: imageUrl
+                        },
+                        success: function (resp) {
+                            $scope.$apply(function () {
+                                if (resp.errorCode == 'SUCCESS') {
+                                    $("#Image-dialog-thongbao").dialog("close");
+                                    $("#Image-dialog-save").text("Xóa thành công");
+                                    $("#Image-dialog-save").dialog("open");
+                                }
+                            });
+                        }
+                    });
+                },
+                "Không": function () {
+                    $("#Image-dialog-thongbao").dialog("close");
+                }
+            }
+        });
+        $("#Image-dialog-thongbao").text("Bạn có chắc chắn muốn xóa bản ghi đã chọn !");
+        $("#Image-dialog-thongbao").dialog("open");
+    }
 });

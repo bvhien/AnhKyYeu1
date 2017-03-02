@@ -30,8 +30,6 @@ public class ThamSoResource {
 
     public static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     private static SessionFactory sf;
-//            = new Configuration().configure().buildSessionFactory();
-//            HibernateUtil.getSessionFactory();
     @Context
     private UriInfo context;
 

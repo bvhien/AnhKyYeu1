@@ -120,3 +120,6 @@ hr{
     float: left;
     margin-bottom: 5px;
 }
+select{
+    color: #607D8B !important;
+}
