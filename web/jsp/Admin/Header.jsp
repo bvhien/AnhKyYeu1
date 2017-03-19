@@ -92,86 +92,6 @@
                 </div>
                 <!-- Top Menu Items -->
                 <ul class="nav navbar-right top-nav">
-                    <!--                    <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
-                                            <ul class="dropdown-menu message-dropdown">
-                                                <li class="message-preview">
-                                                    <a href="#">
-                                                        <div class="media">
-                                                            <span class="pull-left">
-                                                                <img class="media-object" src="http://placehold.it/50x50" alt="">
-                                                            </span>
-                                                            <div class="media-body">
-                                                                <h5 class="media-heading"><strong>John Smith</strong>
-                                                                </h5>
-                                                                <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="message-preview">
-                                                    <a href="#">
-                                                        <div class="media">
-                                                            <span class="pull-left">
-                                                                <img class="media-object" src="http://placehold.it/50x50" alt="">
-                                                            </span>
-                                                            <div class="media-body">
-                                                                <h5 class="media-heading"><strong>John Smith</strong>
-                                                                </h5>
-                                                                <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="message-preview">
-                                                    <a href="#">
-                                                        <div class="media">
-                                                            <span class="pull-left">
-                                                                <img class="media-object" src="http://placehold.it/50x50" alt="">
-                                                            </span>
-                                                            <div class="media-body">
-                                                                <h5 class="media-heading"><strong>John Smith</strong>
-                                                                </h5>
-                                                                <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="message-footer">
-                                                    <a href="#">Read All New Messages</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
-                                            <ul class="dropdown-menu alert-dropdown">
-                                                <li>
-                                                    <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
-                                                </li>
-                                                <li class="divider"></li>
-                                                <li>
-                                                    <a href="#">View All</a>
-                                                </li>
-                                            </ul>
-                                        </li>-->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>&nbsp;<b id="ThongTinTK"></b><b class="caret">&nbsp;</b></a>
                         <ul class="dropdown-menu">
@@ -198,10 +118,10 @@
                             <a href="User.jsp"><i class="fa fa-fw fa-user-circle"></i> Người dùng</a>
                         </li>
                         <li>
-                            <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+                            <a href="Article.jsp"><i class="fa fa-fw fa-newspaper-o"></i> Bài viết</a>
                         </li>
                         <li>
-                            <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+                            <a href="AddArticle.jsp"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
                         </li>
                         <li>
                             <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>

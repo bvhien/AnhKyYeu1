@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Feb 27, 2017 11:51:08 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated Mar 19, 2017 11:45:27 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
     <class name="Entities.Tblarticle" table="tblarticle" catalog="motchangduong_data" optimistic-lock="version">
         <id name="articleId" type="java.lang.Integer">
@@ -29,7 +29,7 @@
         <property name="articleCategoryId" type="java.lang.Integer">
             <column name="article_category_id" />
         </property>
-        <property name="articleSectionId" type="java.lang.Integer">
+        <property name="articleSectionId" type="java.lang.Short">
             <column name="article_section_id" />
         </property>
         <property name="articleVisited" type="java.lang.Integer">

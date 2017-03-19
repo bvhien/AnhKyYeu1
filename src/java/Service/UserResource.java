@@ -119,9 +119,8 @@ public class UserResource {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            
+
             //----Lấy danh sách quyền
-            
             String SqlPermiss = "select para from " + Tblparameter.class.getName() + " para where para.paraStatus ='1' and para.paraValue = 'PERMISSION'";
             Query query_tblPermiss = session.createQuery(SqlPermiss);
             List<Tblparameter> listPermiss = query_tblPermiss.list();
@@ -139,7 +138,7 @@ public class UserResource {
             jsonReturn.put("errorCode", "SUCCESS");
             jsonReturn.put("errorMessages", "Thanh Cong");
             jsonReturn.put("TableUser", arrUser);
-            jsonReturn.put("TrangThai",arrTrangThai);
+            jsonReturn.put("TrangThai", arrTrangThai);
             jsonReturn.put("Permiss", arrPermiss);
             transaction.commit();
         } catch (Exception e) {
@@ -177,6 +176,122 @@ public class UserResource {
             user.setUserStatus(json.has("UserStatus") ? json.getString("UserStatus") : null);
             user.setUserCreatedDate(date);
             session.save(user);
+            jsonReturn.put("errorCode", "SUCCESS");
+            jsonReturn.put("errorMessages", "Thanh Cong");
+            transaction.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            transaction.rollback();
+        }
+        return jsonReturn.toString();
+    }
+
+    @Path("/ShowPopupSua")
+    @POST
+    @Consumes("application/json")
+    @Produces("application/json")
+    public String ShowPopupSua(@Context HttpServletRequest requestContext, String Id) throws JSONException, UnsupportedEncodingException {
+        requestContext.setCharacterEncoding("UTF-8");
+        JSONObject jsonReturn = new JSONObject();
+        sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.openSession();
+        Transaction transaction = session.beginTransaction();
+        jsonReturn.put("errorCode", "ERROR");
+        jsonReturn.put("errorMessages", "L\u1ED7i h\u1EC7 th\u1ED1ng");
+        try {
+            String Sql = "select user from " + Tbluser.class.getName() + " user where user.userId = " + Id + "";
+            Query query = session.createQuery(Sql);
+            List<Tbluser> listUser = query.list();
+            JSONArray arrChangeUser = new JSONArray();
+            try {
+                for (Tbluser user : listUser) {
+                    JSONObject jsonUser = new JSONObject();
+                    jsonUser.put("Id", user.getUserId());
+                    jsonUser.put("UserPass", user.getUserPass());
+                    jsonUser.put("UserName", user.getUserName());
+                    jsonUser.put("UserPermission", user.getUserPermission());
+                    jsonUser.put("UserFullName", user.getUserFullname());
+                    jsonUser.put("UserBirthday", user.getUserBirthday());
+                    jsonUser.put("UserMobilePhone", user.getUserMobilephone());
+                    jsonUser.put("UserEmail", user.getUserEmail());
+                    jsonUser.put("UserStatus", user.getUserStatus());
+
+                    arrChangeUser.put(jsonUser);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            jsonReturn.put("errorCode", "SUCCESS");
+            jsonReturn.put("errorMessages", "Thanh Cong");
+            jsonReturn.put("ChangeUser", arrChangeUser);
+            transaction.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            transaction.rollback();
+        }
+        return jsonReturn.toString();
+    }
+
+    //========Xoa=======
+    @Path("/XoaUser")
+    @POST
+    @Consumes("application/json")
+    @Produces("application/json")
+    public String XoaUser(@Context HttpServletRequest requestContext, String strJson) throws JSONException, UnsupportedEncodingException {
+        requestContext.setCharacterEncoding("UTF-8");
+        strJson = ServiceUtils.Decoder(strJson);
+        JSONArray arrjson = new JSONArray(strJson);
+        JSONObject jsonReturn = new JSONObject();
+        sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.openSession();
+        Transaction transaction = session.beginTransaction();
+        System.out.println("json" + strJson);
+        jsonReturn.put("errorCode", "ERROR");
+        jsonReturn.put("errorMessages", "L\u1ED7i h\u1EC7 th\u1ED1ng");
+        try {
+            for (int i = 0; i < arrjson.length(); i++) {
+                Tbluser user = new Tbluser();
+                user.setUserId(arrjson.getJSONObject(i).has("Id") ? arrjson.getJSONObject(i).getInt("Id") : null);
+                session.delete(user);
+            }
+            transaction.commit();
+            jsonReturn.put("errorCode", "SUCCESS");
+            jsonReturn.put("errorMessages", "Thanh Cong");
+        } catch (Exception e) {
+            e.printStackTrace();
+            transaction.rollback();
+        }
+        return jsonReturn.toString();
+    }
+
+    //---------Sửa thông tin User
+    @Path("/SuaUser")
+    @POST
+    @Consumes("application/json")
+    @Produces("application/json;charset=UTF-8")
+    public String SuaUser(@Context HttpServletRequest requestContext, String strJson) throws JSONException, UnsupportedEncodingException {
+        requestContext.setCharacterEncoding("UTF-8");
+        String data = ServiceUtils.Decoder(strJson);
+        JSONObject json = new JSONObject(data);
+        JSONObject jsonReturn = new JSONObject();
+        sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.openSession();
+        Transaction transaction = session.beginTransaction();
+        Date date = new Date();
+        jsonReturn.put("errorCode", "ERROR");
+        jsonReturn.put("errorMessages", "L\u1ED7i h\u1EC7 th\u1ED1ng");
+        try {
+            Tbluser user = new Tbluser();
+            user.setUserId(json.has("Id") ? json.getInt("Id") : null);
+            user.setUserName(json.has("UserName") ? json.getString("UserName") : null);
+            user.setUserPass(json.has("UserPass") ? json.getString("UserPass") : null);
+            user.setUserFullname(json.has("UserFullName") ? json.getString("UserFullName") : null);
+            user.setUserBirthday(json.has("UserBirthday") ? json.getString("UserBirthday") : null);
+            user.setUserMobilephone(json.has("UserMobilePhone") ? json.get("UserMobilePhone").toString() : null);
+            user.setUserEmail(json.has("UserEmail") ? json.getString("UserEmail") : null);
+            user.setUserPermission(json.has("UserPermission") ? Short.parseShort(json.getString("UserPermission")) : null);
+            user.setUserStatus(json.has("UserStatus") ? json.getString("UserStatus") : null);
+            session.update(user);
             jsonReturn.put("errorCode", "SUCCESS");
             jsonReturn.put("errorMessages", "Thanh Cong");
             transaction.commit();

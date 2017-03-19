@@ -1,0 +1,1024 @@
+20-Mar-2017 00:00:05.266 INFO [http-apr-8086-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Mar-2017 00:00:05.280 WARNING [http-apr-8086-exec-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Mar-2017 00:00:05.281 WARNING [http-apr-8086-exec-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:00:05.281 WARNING [http-apr-8086-exec-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-4-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:00:05.282 WARNING [http-apr-8086-exec-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-5-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:00:05.282 WARNING [http-apr-8086-exec-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-6-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:00:08.133 INFO [http-apr-8086-exec-31] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:00:08.534 INFO [http-apr-8086-exec-31] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:00:09.076 INFO [http-apr-8086-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Mar-2017 00:00:20.764 INFO [http-apr-8086-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Mar-2017 00:00:22.854 INFO [http-apr-8086-exec-15] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:00:23.236 INFO [http-apr-8086-exec-15] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:00:23.902 INFO [http-apr-8086-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Mar-2017 00:00:30.712 INFO [http-apr-8086-exec-40] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20-Mar-2017 00:00:30.723 INFO [http-apr-8086-exec-40] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+20-Mar-2017 00:00:30.726 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+20-Mar-2017 00:00:30.729 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+20-Mar-2017 00:00:30.763 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:00:30.764 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:00:30.795 WARN [http-apr-8086-exec-40] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:00:30.816 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:00:30.828 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:00:30.835 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:00:30.840 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:00:30.845 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:00:30.852 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:00:30.857 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:00:30.863 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:00:30.869 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:00:30.875 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:00:30.880 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:00:30.886 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:00:30.891 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:00:30.896 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:00:30.901 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:00:30.906 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:00:30.916 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:00:30.922 INFO [http-apr-8086-exec-40] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:00:31.060 WARN [http-apr-8086-exec-40] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:00:31.065 INFO [http-apr-8086-exec-40] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:00:31.065 INFO [http-apr-8086-exec-40] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:00:31.066 INFO [http-apr-8086-exec-40] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:00:31.068 INFO [http-apr-8086-exec-40] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:00:31.283 INFO [http-apr-8086-exec-40] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:00:31.410 INFO [http-apr-8086-exec-40] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:00:31.419 INFO [http-apr-8086-exec-40] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:01:12.856 INFO [http-apr-8086-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Mar-2017 00:01:12.869 WARNING [http-apr-8086-exec-42] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Mar-2017 00:01:12.870 WARNING [http-apr-8086-exec-42] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-9-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:01:15.330 INFO [http-apr-8086-exec-42] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:01:15.843 INFO [http-apr-8086-exec-42] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:01:16.379 INFO [http-apr-8086-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Mar-2017 00:04:03.678 INFO [http-apr-8086-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Mar-2017 00:04:05.626 INFO [http-apr-8086-exec-22] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:04:06.087 INFO [http-apr-8086-exec-22] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:04:06.677 INFO [http-apr-8086-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Mar-2017 00:04:15.568 INFO [http-apr-8086-exec-21] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20-Mar-2017 00:04:15.580 INFO [http-apr-8086-exec-21] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+20-Mar-2017 00:04:15.583 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+20-Mar-2017 00:04:15.585 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+20-Mar-2017 00:04:15.619 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:04:15.619 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:04:15.649 WARN [http-apr-8086-exec-21] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:04:15.670 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:04:15.680 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:04:15.685 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:04:15.690 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:04:15.695 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:04:15.701 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:04:15.706 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:04:15.711 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:04:15.716 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:04:15.720 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:04:15.726 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:04:15.731 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:04:15.735 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:04:15.740 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:04:15.745 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:04:15.750 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:04:15.755 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:04:15.762 INFO [http-apr-8086-exec-21] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:04:15.899 WARN [http-apr-8086-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:04:15.904 INFO [http-apr-8086-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:04:15.905 INFO [http-apr-8086-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:04:15.905 INFO [http-apr-8086-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:04:15.907 INFO [http-apr-8086-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:04:16.123 INFO [http-apr-8086-exec-21] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:04:16.246 INFO [http-apr-8086-exec-21] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:04:16.254 INFO [http-apr-8086-exec-21] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:04:17.078 WARN [http-apr-8086-exec-21] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1267, SQLState: HY000
+20-Mar-2017 00:04:17.079 ERROR [http-apr-8086-exec-21] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+20-Mar-2017 00:05:07.751 INFO [http-apr-8086-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Mar-2017 00:05:07.764 WARNING [http-apr-8086-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Mar-2017 00:05:07.765 WARNING [http-apr-8086-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-12-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:05:09.590 INFO [http-apr-8086-exec-27] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:05:09.958 INFO [http-apr-8086-exec-27] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:05:10.539 INFO [http-apr-8086-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Mar-2017 00:05:12.102 INFO [http-apr-8086-exec-19] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20-Mar-2017 00:05:12.113 INFO [http-apr-8086-exec-19] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+20-Mar-2017 00:05:12.116 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+20-Mar-2017 00:05:12.118 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+20-Mar-2017 00:05:12.149 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:05:12.149 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:05:12.176 WARN [http-apr-8086-exec-19] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:05:12.196 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:05:12.205 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:05:12.210 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:05:12.214 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:05:12.218 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:05:12.224 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:05:12.228 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:05:12.233 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:05:12.238 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:05:12.242 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:05:12.248 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:05:12.254 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:05:12.258 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:05:12.262 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:05:12.268 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:05:12.272 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:05:12.277 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:05:12.282 INFO [http-apr-8086-exec-19] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:05:12.412 WARN [http-apr-8086-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:05:12.417 INFO [http-apr-8086-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:05:12.417 INFO [http-apr-8086-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:05:12.417 INFO [http-apr-8086-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:05:12.419 INFO [http-apr-8086-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:05:12.626 INFO [http-apr-8086-exec-19] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:05:12.746 INFO [http-apr-8086-exec-19] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:05:12.753 INFO [http-apr-8086-exec-19] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:09:06.571 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:09:06.571 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:09:06.573 WARN [http-apr-8086-exec-55] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:09:06.575 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:09:06.583 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:09:06.592 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:09:06.597 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:09:06.603 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:09:06.609 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:09:06.616 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:09:06.624 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:09:06.630 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:09:06.634 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:09:06.641 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:09:06.648 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:09:06.709 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:09:06.713 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:09:06.719 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:09:06.723 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:09:06.728 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:09:06.734 INFO [http-apr-8086-exec-55] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:09:06.739 WARN [http-apr-8086-exec-55] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:09:06.740 INFO [http-apr-8086-exec-55] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:09:06.824 INFO [http-apr-8086-exec-55] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:09:06.825 INFO [http-apr-8086-exec-55] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:09:06.826 INFO [http-apr-8086-exec-55] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:09:06.869 INFO [http-apr-8086-exec-55] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:09:06.897 INFO [http-apr-8086-exec-55] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:09:06.898 INFO [http-apr-8086-exec-55] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:10:50.868 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:10:50.869 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:10:50.879 WARN [http-apr-8086-exec-73] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:10:50.881 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:10:50.888 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:10:50.893 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:10:50.898 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:10:50.902 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:10:50.909 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:10:50.915 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:10:50.922 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:10:50.928 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:10:50.933 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:10:50.940 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:10:50.948 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:10:50.957 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:10:50.973 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:10:50.992 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:10:50.999 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:10:51.008 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:10:51.014 INFO [http-apr-8086-exec-73] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:10:51.023 WARN [http-apr-8086-exec-73] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:10:51.023 INFO [http-apr-8086-exec-73] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:10:51.024 INFO [http-apr-8086-exec-73] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:10:51.024 INFO [http-apr-8086-exec-73] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:10:51.024 INFO [http-apr-8086-exec-73] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:10:51.037 INFO [http-apr-8086-exec-73] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:10:51.054 INFO [http-apr-8086-exec-73] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:10:51.054 INFO [http-apr-8086-exec-73] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:10:52.698 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:10:52.699 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:10:52.700 WARN [http-apr-8086-exec-69] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:10:52.702 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:10:52.708 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:10:52.713 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:10:52.718 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:10:52.725 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:10:52.735 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:10:52.743 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:10:52.751 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:10:52.761 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:10:52.769 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:10:52.779 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:10:52.805 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:10:52.814 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:10:52.820 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:10:52.826 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:10:52.831 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:10:52.837 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:10:52.845 INFO [http-apr-8086-exec-69] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:10:52.851 WARN [http-apr-8086-exec-69] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:10:52.851 INFO [http-apr-8086-exec-69] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:10:52.852 INFO [http-apr-8086-exec-69] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:10:52.852 INFO [http-apr-8086-exec-69] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:10:52.852 INFO [http-apr-8086-exec-69] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:10:52.867 INFO [http-apr-8086-exec-69] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:10:52.882 INFO [http-apr-8086-exec-69] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:10:52.883 INFO [http-apr-8086-exec-69] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:11:09.693 INFO [http-apr-8086-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Mar-2017 00:11:09.703 WARNING [http-apr-8086-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Mar-2017 00:11:09.704 WARNING [http-apr-8086-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-14-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:11:09.704 WARNING [http-apr-8086-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-15-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:11:09.705 WARNING [http-apr-8086-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-16-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:11:09.705 WARNING [http-apr-8086-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-17-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:11:11.832 INFO [http-apr-8086-exec-65] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:11:12.171 INFO [http-apr-8086-exec-65] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:11:12.634 INFO [http-apr-8086-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Mar-2017 00:11:22.211 INFO [http-apr-8086-exec-76] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20-Mar-2017 00:11:22.225 INFO [http-apr-8086-exec-76] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+20-Mar-2017 00:11:22.228 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+20-Mar-2017 00:11:22.231 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+20-Mar-2017 00:11:22.264 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:11:22.264 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:11:22.294 WARN [http-apr-8086-exec-76] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:11:22.315 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:11:22.325 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:11:22.329 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:11:22.333 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:11:22.337 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:11:22.342 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:11:22.346 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:11:22.351 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:11:22.356 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:11:22.360 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:11:22.365 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:11:22.373 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:11:22.377 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:11:22.382 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:11:22.386 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:11:22.390 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:11:22.395 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:11:22.400 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:11:22.543 WARN [http-apr-8086-exec-76] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:11:22.548 INFO [http-apr-8086-exec-76] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:11:22.548 INFO [http-apr-8086-exec-76] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:11:22.549 INFO [http-apr-8086-exec-76] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:11:22.551 INFO [http-apr-8086-exec-76] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:11:22.761 INFO [http-apr-8086-exec-76] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:11:22.898 INFO [http-apr-8086-exec-76] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:11:22.906 INFO [http-apr-8086-exec-76] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:11:23.756 WARN [http-apr-8086-exec-76] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1267, SQLState: HY000
+20-Mar-2017 00:11:23.757 ERROR [http-apr-8086-exec-76] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+20-Mar-2017 00:12:01.724 WARNING [http-apr-8086-exec-45] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Mar-2017 00:12:01.725 WARNING [http-apr-8086-exec-45] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-19-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:12:02.228 INFO [http-apr-8086-exec-45] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/AnhKyYeu]
+20-Mar-2017 00:12:34.635 INFO [http-apr-8086-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\Catalina\localhost\AnhKyYeu.xml
+20-Mar-2017 00:12:34.641 WARNING [http-apr-8086-exec-74] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+20-Mar-2017 00:12:36.305 INFO [http-apr-8086-exec-74] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:12:36.665 INFO [http-apr-8086-exec-74] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:12:37.169 INFO [http-apr-8086-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\Catalina\localhost\AnhKyYeu.xml has finished in 2,534 ms
+20-Mar-2017 00:12:37.174 INFO [http-apr-8086-exec-64] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AnhKyYeu]] after start() had already been called. The second call will be ignored.
+20-Mar-2017 00:12:38.800 INFO [http-apr-8086-exec-78] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20-Mar-2017 00:12:38.818 INFO [http-apr-8086-exec-78] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+20-Mar-2017 00:12:38.821 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+20-Mar-2017 00:12:38.824 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+20-Mar-2017 00:12:38.876 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:12:38.876 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:12:38.908 WARN [http-apr-8086-exec-78] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:12:38.933 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:12:38.943 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:12:38.948 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:12:38.953 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:12:38.959 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:12:38.965 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:12:38.969 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:12:38.974 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:12:38.978 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:12:38.982 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:12:38.987 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:12:38.991 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:12:38.996 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:12:39.001 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:12:39.006 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:12:39.010 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:12:39.014 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:12:39.020 INFO [http-apr-8086-exec-78] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:12:39.176 WARN [http-apr-8086-exec-78] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:12:39.183 INFO [http-apr-8086-exec-78] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:12:39.183 INFO [http-apr-8086-exec-78] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:12:39.184 INFO [http-apr-8086-exec-78] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:12:39.187 INFO [http-apr-8086-exec-78] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:12:39.412 INFO [http-apr-8086-exec-78] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:12:39.534 INFO [http-apr-8086-exec-78] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:12:39.541 INFO [http-apr-8086-exec-78] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:12:39.994 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:12:39.994 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:12:39.997 WARN [http-apr-8086-exec-80] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:12:39.998 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:12:40.003 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:12:40.008 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:12:40.016 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:12:40.023 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:12:40.029 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:12:40.037 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:12:40.042 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:12:40.049 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:12:40.054 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:12:40.063 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:12:40.070 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:12:40.075 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:12:40.081 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:12:40.087 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:12:40.094 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:12:40.099 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:12:40.105 INFO [http-apr-8086-exec-80] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:12:40.111 WARN [http-apr-8086-exec-80] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:12:40.112 INFO [http-apr-8086-exec-80] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:12:40.113 INFO [http-apr-8086-exec-80] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:12:40.113 INFO [http-apr-8086-exec-80] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:12:40.113 INFO [http-apr-8086-exec-80] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:12:40.133 INFO [http-apr-8086-exec-80] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:12:40.155 INFO [http-apr-8086-exec-80] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:12:40.156 INFO [http-apr-8086-exec-80] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:12:40.488 WARN [http-apr-8086-exec-78] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1267, SQLState: HY000
+20-Mar-2017 00:12:40.488 ERROR [http-apr-8086-exec-78] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+20-Mar-2017 00:12:40.809 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:12:40.809 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:12:40.811 WARN [http-apr-8086-exec-46] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:12:40.813 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:12:40.819 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:12:40.823 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:12:40.828 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:12:40.832 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:12:40.838 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:12:40.844 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:12:40.850 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:12:40.855 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:12:40.861 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:12:40.869 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:12:40.876 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:12:40.893 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:12:40.901 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:12:40.908 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:12:40.915 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:12:40.924 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:12:40.931 INFO [http-apr-8086-exec-46] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:12:40.936 WARN [http-apr-8086-exec-46] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:12:40.936 INFO [http-apr-8086-exec-46] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:12:40.937 INFO [http-apr-8086-exec-46] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:12:40.937 INFO [http-apr-8086-exec-46] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:12:40.937 INFO [http-apr-8086-exec-46] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:12:40.949 INFO [http-apr-8086-exec-46] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:12:40.970 INFO [http-apr-8086-exec-46] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:12:40.970 INFO [http-apr-8086-exec-46] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:12:43.095 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:12:43.096 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:12:43.097 WARN [http-apr-8086-exec-64] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:12:43.098 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:12:43.102 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:12:43.107 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:12:43.112 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:12:43.118 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:12:43.126 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:12:43.132 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:12:43.138 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:12:43.145 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:12:43.151 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:12:43.157 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:12:43.167 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:12:43.171 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:12:43.175 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:12:43.179 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:12:43.183 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:12:43.187 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:12:43.192 INFO [http-apr-8086-exec-64] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:12:43.196 WARN [http-apr-8086-exec-64] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:12:43.196 INFO [http-apr-8086-exec-64] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:12:43.197 INFO [http-apr-8086-exec-64] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:12:43.197 INFO [http-apr-8086-exec-64] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:12:43.197 INFO [http-apr-8086-exec-64] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:12:43.211 INFO [http-apr-8086-exec-64] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:12:43.222 INFO [http-apr-8086-exec-64] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:12:43.223 INFO [http-apr-8086-exec-64] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:12:43.311 WARN [http-apr-8086-exec-64] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1267, SQLState: HY000
+20-Mar-2017 00:12:43.312 ERROR [http-apr-8086-exec-64] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+20-Mar-2017 00:13:49.647 INFO [http-apr-8086-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Mar-2017 00:13:49.658 WARNING [http-apr-8086-exec-91] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Mar-2017 00:13:49.659 WARNING [http-apr-8086-exec-91] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-21-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:13:49.660 WARNING [http-apr-8086-exec-91] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-22-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:13:49.660 WARNING [http-apr-8086-exec-91] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-23-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:13:49.660 WARNING [http-apr-8086-exec-91] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-24-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:13:51.865 INFO [http-apr-8086-exec-91] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:13:52.193 INFO [http-apr-8086-exec-91] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:13:52.666 INFO [http-apr-8086-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Mar-2017 00:13:56.415 INFO [http-apr-8086-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Mar-2017 00:13:58.366 INFO [http-apr-8086-exec-89] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:13:58.705 INFO [http-apr-8086-exec-89] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:13:59.277 INFO [http-apr-8086-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Mar-2017 00:14:03.394 INFO [http-apr-8086-exec-83] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20-Mar-2017 00:14:03.404 INFO [http-apr-8086-exec-83] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+20-Mar-2017 00:14:03.407 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+20-Mar-2017 00:14:03.409 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+20-Mar-2017 00:14:03.439 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:14:03.439 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:14:03.466 WARN [http-apr-8086-exec-83] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:14:03.485 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:14:03.494 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:14:03.498 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:14:03.501 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:14:03.505 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:14:03.510 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:14:03.514 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:14:03.518 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:14:03.523 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:14:03.528 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:14:03.532 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:14:03.536 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:14:03.540 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:14:03.544 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:14:03.548 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:14:03.552 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:14:03.557 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:14:03.587 INFO [http-apr-8086-exec-83] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:14:03.720 WARN [http-apr-8086-exec-83] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:14:03.725 INFO [http-apr-8086-exec-83] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:14:03.726 INFO [http-apr-8086-exec-83] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:14:03.726 INFO [http-apr-8086-exec-83] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:14:03.728 INFO [http-apr-8086-exec-83] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:14:03.936 INFO [http-apr-8086-exec-83] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:14:04.050 INFO [http-apr-8086-exec-83] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:14:04.058 INFO [http-apr-8086-exec-83] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:14:04.833 WARN [http-apr-8086-exec-83] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1267, SQLState: HY000
+20-Mar-2017 00:14:04.833 ERROR [http-apr-8086-exec-83] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+20-Mar-2017 00:14:24.131 INFO [http-apr-8086-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Mar-2017 00:14:24.144 WARNING [http-apr-8086-exec-99] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Mar-2017 00:14:24.145 WARNING [http-apr-8086-exec-99] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-27-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:14:25.841 INFO [http-apr-8086-exec-99] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:14:26.201 INFO [http-apr-8086-exec-99] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:14:26.723 INFO [http-apr-8086-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Mar-2017 00:14:34.463 INFO [http-apr-8086-exec-76] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20-Mar-2017 00:14:34.473 INFO [http-apr-8086-exec-76] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+20-Mar-2017 00:14:34.476 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+20-Mar-2017 00:14:34.478 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+20-Mar-2017 00:14:34.508 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:14:34.509 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:14:34.536 WARN [http-apr-8086-exec-76] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:14:34.557 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:14:34.566 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:14:34.570 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:14:34.574 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:14:34.578 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:14:34.583 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:14:34.587 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:14:34.591 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:14:34.596 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:14:34.599 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:14:34.604 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:14:34.608 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:14:34.612 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:14:34.616 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:14:34.620 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:14:34.625 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:14:34.629 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:14:34.634 INFO [http-apr-8086-exec-76] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:14:34.762 WARN [http-apr-8086-exec-76] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:14:34.767 INFO [http-apr-8086-exec-76] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:14:34.768 INFO [http-apr-8086-exec-76] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:14:34.768 INFO [http-apr-8086-exec-76] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:14:34.770 INFO [http-apr-8086-exec-76] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:14:34.978 INFO [http-apr-8086-exec-76] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:14:35.093 INFO [http-apr-8086-exec-76] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:14:35.101 INFO [http-apr-8086-exec-76] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:14:35.952 ERROR [http-apr-8086-exec-76] org.hibernate.hql.internal.ast.ErrorCounter.reportError line 3:206: unexpected token: .
+20-Mar-2017 00:14:35.953 ERROR [http-apr-8086-exec-76] org.hibernate.hql.internal.ast.ErrorCounter.reportError line 3:206: unexpected token: .
+ line 3:206: unexpected token: .
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1092)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:723)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:316)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:179)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:295)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:203)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:158)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:126)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:88)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:190)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:301)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:236)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1796)
+	at Service.ArticleResource.GetArticle(ArticleResource.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:151)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:171)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:195)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:104)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:402)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:349)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:106)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:259)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:318)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:236)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1010)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:373)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:382)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:345)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:220)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:509)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1104)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2508)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2497)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+20-Mar-2017 00:14:43.964 INFO [http-apr-8086-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] has started
+20-Mar-2017 00:14:44.007 WARNING [http-apr-8086-exec-34] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Mar-2017 00:14:44.007 WARNING [http-apr-8086-exec-34] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-29-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:14:45.905 INFO [http-apr-8086-exec-34] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:14:46.317 INFO [http-apr-8086-exec-34] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:14:46.941 INFO [http-apr-8086-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/AnhKyYeu] is completed
+20-Mar-2017 00:14:51.242 INFO [http-apr-8086-exec-82] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20-Mar-2017 00:14:51.253 INFO [http-apr-8086-exec-82] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+20-Mar-2017 00:14:51.256 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+20-Mar-2017 00:14:51.258 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+20-Mar-2017 00:14:51.290 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:14:51.290 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:14:51.317 WARN [http-apr-8086-exec-82] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:14:51.337 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:14:51.346 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:14:51.349 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:14:51.353 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:14:51.357 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:14:51.362 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:14:51.366 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:14:51.370 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:14:51.374 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:14:51.377 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:14:51.381 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:14:51.386 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:14:51.389 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:14:51.393 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:14:51.397 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:14:51.401 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:14:51.406 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:14:51.411 INFO [http-apr-8086-exec-82] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:14:51.537 WARN [http-apr-8086-exec-82] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:14:51.542 INFO [http-apr-8086-exec-82] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:14:51.542 INFO [http-apr-8086-exec-82] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:14:51.543 INFO [http-apr-8086-exec-82] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:14:51.545 INFO [http-apr-8086-exec-82] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:14:51.746 INFO [http-apr-8086-exec-82] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:14:51.870 INFO [http-apr-8086-exec-82] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:14:51.878 INFO [http-apr-8086-exec-82] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:14:52.667 WARN [http-apr-8086-exec-82] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1267, SQLState: HY000
+20-Mar-2017 00:14:52.667 ERROR [http-apr-8086-exec-82] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+20-Mar-2017 00:15:02.218 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Mar-2017 00:15:02.218 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8086"]
+20-Mar-2017 00:15:02.269 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+20-Mar-2017 00:15:02.320 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+20-Mar-2017 00:15:02.389 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Mar-2017 00:15:02.389 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-31-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:15:02.391 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8086"]
+20-Mar-2017 00:15:02.462 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+20-Mar-2017 00:15:02.515 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8086"]
+20-Mar-2017 00:15:02.516 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+20-Mar-2017 00:15:39.367 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+20-Mar-2017 00:15:39.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.39
+20-Mar-2017 00:15:39.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2016 08:48:39 UTC
+20-Mar-2017 00:15:39.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.39.0
+20-Mar-2017 00:15:39.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+20-Mar-2017 00:15:39.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+20-Mar-2017 00:15:39.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Mar-2017 00:15:39.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+20-Mar-2017 00:15:39.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+20-Mar-2017 00:15:39.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Mar-2017 00:15:39.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39
+20-Mar-2017 00:15:39.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39
+20-Mar-2017 00:15:39.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+20-Mar-2017 00:15:39.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+20-Mar-2017 00:15:39.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=1024m
+20-Mar-2017 00:15:39.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=2048m
+20-Mar-2017 00:15:39.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Mar-2017 00:15:39.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Mar-2017 00:15:39.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\logging.properties
+20-Mar-2017 00:15:39.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Mar-2017 00:15:39.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\endorsed
+20-Mar-2017 00:15:39.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39
+20-Mar-2017 00:15:39.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39
+20-Mar-2017 00:15:39.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\temp
+20-Mar-2017 00:15:39.420 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+20-Mar-2017 00:15:39.420 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20-Mar-2017 00:15:40.036 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+20-Mar-2017 00:15:40.166 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8086"]
+20-Mar-2017 00:15:40.178 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+20-Mar-2017 00:15:40.180 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1193 ms
+20-Mar-2017 00:15:40.228 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Mar-2017 00:15:40.228 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.39
+20-Mar-2017 00:15:40.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\Catalina\localhost\AnhKyYeu.xml
+20-Mar-2017 00:15:40.288 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+20-Mar-2017 00:15:43.507 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Mar-2017 00:15:43.627 INFO [localhost-startStop-1] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:15:43.732 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+20-Mar-2017 00:15:44.249 INFO [localhost-startStop-1] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:15:44.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\Catalina\localhost\AnhKyYeu.xml has finished in 4,647 ms
+20-Mar-2017 00:15:44.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\docs
+20-Mar-2017 00:15:44.917 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\docs has finished in 22 ms
+20-Mar-2017 00:15:44.917 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\examples
+20-Mar-2017 00:15:45.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\examples has finished in 338 ms
+20-Mar-2017 00:15:45.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\host-manager
+20-Mar-2017 00:15:45.294 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\host-manager has finished in 38 ms
+20-Mar-2017 00:15:45.294 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\manager
+20-Mar-2017 00:15:45.366 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\manager has finished in 72 ms
+20-Mar-2017 00:15:45.366 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\ROOT
+20-Mar-2017 00:15:45.390 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\webapps\ROOT has finished in 24 ms
+20-Mar-2017 00:15:45.412 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8086"]
+20-Mar-2017 00:15:45.428 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+20-Mar-2017 00:15:45.433 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5251 ms
+20-Mar-2017 00:15:47.124 INFO [http-apr-8086-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/AnhKyYeu]
+20-Mar-2017 00:15:47.181 INFO [http-apr-8086-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\Catalina\localhost\AnhKyYeu.xml
+20-Mar-2017 00:15:47.187 WARNING [http-apr-8086-exec-15] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+20-Mar-2017 00:15:49.224 INFO [http-apr-8086-exec-15] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:15:49.614 INFO [http-apr-8086-exec-15] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:15:50.158 INFO [http-apr-8086-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\Catalina\localhost\AnhKyYeu.xml has finished in 2,976 ms
+20-Mar-2017 00:15:50.163 INFO [http-apr-8086-exec-16] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AnhKyYeu]] after start() had already been called. The second call will be ignored.
+20-Mar-2017 00:15:53.196 INFO [http-apr-8086-exec-10] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20-Mar-2017 00:15:53.216 INFO [http-apr-8086-exec-10] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+20-Mar-2017 00:15:53.222 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+20-Mar-2017 00:15:53.225 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+20-Mar-2017 00:15:53.274 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:15:53.274 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:15:53.308 WARN [http-apr-8086-exec-10] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:15:53.332 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:15:53.374 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:15:53.402 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:15:53.417 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:15:53.437 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:15:53.457 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:15:53.478 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:15:53.499 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:15:53.518 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:15:53.538 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:15:53.558 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:15:53.582 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:15:53.606 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:15:53.620 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:15:53.644 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:15:53.666 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:15:53.677 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:15:53.693 INFO [http-apr-8086-exec-10] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:15:53.791 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:15:53.791 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:15:53.819 WARN [http-apr-8086-exec-3] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:15:53.822 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:15:53.855 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:15:53.873 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:15:53.887 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:15:53.916 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:15:53.932 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:15:53.964 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:15:53.984 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:15:53.998 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:15:54.054 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:15:54.067 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:15:54.069 WARN [http-apr-8086-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:15:54.077 INFO [http-apr-8086-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:15:54.078 INFO [http-apr-8086-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:15:54.078 INFO [http-apr-8086-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:15:54.081 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:15:54.082 INFO [http-apr-8086-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:15:54.121 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:15:54.139 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:15:54.150 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:15:54.189 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:15:54.206 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:15:54.219 INFO [http-apr-8086-exec-3] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:15:54.227 WARN [http-apr-8086-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:15:54.232 INFO [http-apr-8086-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:15:54.232 INFO [http-apr-8086-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:15:54.232 INFO [http-apr-8086-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:15:54.233 INFO [http-apr-8086-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:15:54.423 INFO [http-apr-8086-exec-10] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:15:54.423 INFO [http-apr-8086-exec-3] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:15:54.566 INFO [http-apr-8086-exec-3] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:15:54.566 INFO [http-apr-8086-exec-10] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:15:54.576 INFO [http-apr-8086-exec-3] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:15:54.576 INFO [http-apr-8086-exec-10] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:15:55.869 WARN [http-apr-8086-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1267, SQLState: HY000
+20-Mar-2017 00:15:55.869 ERROR [http-apr-8086-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+20-Mar-2017 00:15:56.337 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:15:56.337 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:15:56.339 WARN [http-apr-8086-exec-4] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:15:56.341 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:15:56.347 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:15:56.354 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:15:56.361 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:15:56.368 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:15:56.378 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:15:56.386 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:15:56.417 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:15:56.424 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:15:56.431 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:15:56.440 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:15:56.448 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:15:56.461 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:15:56.470 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:15:56.477 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:15:56.485 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:15:56.494 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:15:56.507 INFO [http-apr-8086-exec-4] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:15:56.515 WARN [http-apr-8086-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:15:56.516 INFO [http-apr-8086-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:15:56.516 INFO [http-apr-8086-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:15:56.516 INFO [http-apr-8086-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:15:56.516 INFO [http-apr-8086-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:15:56.528 INFO [http-apr-8086-exec-4] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:15:56.560 INFO [http-apr-8086-exec-4] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:15:56.560 INFO [http-apr-8086-exec-4] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:15:57.725 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:15:57.725 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:15:57.727 WARN [http-apr-8086-exec-17] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:15:57.729 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:15:57.736 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:15:57.746 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:15:57.755 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:15:57.775 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:15:57.786 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:15:57.794 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:15:57.803 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:15:57.811 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:15:57.820 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:15:57.834 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:15:57.840 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:15:57.847 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:15:57.855 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:15:57.869 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:15:57.878 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:15:57.888 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:15:57.895 INFO [http-apr-8086-exec-17] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:15:57.904 WARN [http-apr-8086-exec-17] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:15:57.905 INFO [http-apr-8086-exec-17] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:15:57.905 INFO [http-apr-8086-exec-17] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:15:57.906 INFO [http-apr-8086-exec-17] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:15:57.906 INFO [http-apr-8086-exec-17] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:15:57.930 INFO [http-apr-8086-exec-17] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:15:57.951 INFO [http-apr-8086-exec-17] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:15:57.951 INFO [http-apr-8086-exec-17] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:15:58.072 WARN [http-apr-8086-exec-17] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1267, SQLState: HY000
+20-Mar-2017 00:15:58.072 ERROR [http-apr-8086-exec-17] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+20-Mar-2017 00:17:18.427 WARNING [http-apr-8086-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AnhKyYeu] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Mar-2017 00:17:18.429 WARNING [http-apr-8086-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:17:18.429 WARNING [http-apr-8086-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-4-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:17:18.430 WARNING [http-apr-8086-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-5-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:17:18.430 WARNING [http-apr-8086-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AnhKyYeu] appears to have started a thread named [pool-6-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+ java.lang.Thread.run(Thread.java:745)
+20-Mar-2017 00:17:19.203 INFO [http-apr-8086-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/AnhKyYeu]
+20-Mar-2017 00:17:44.706 INFO [http-apr-8086-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\Catalina\localhost\AnhKyYeu.xml
+20-Mar-2017 00:17:44.725 WARNING [http-apr-8086-exec-27] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+20-Mar-2017 00:17:47.110 INFO [http-apr-8086-exec-27] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named Service.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+20-Mar-2017 00:17:47.496 INFO [http-apr-8086-exec-27] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+20-Mar-2017 00:17:48.025 INFO [http-apr-8086-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\BVHIEN\Documents\NetBeansProjects\AnhKyYeu\lib\apache-tomcat-8.0.39\conf\Catalina\localhost\AnhKyYeu.xml has finished in 3,319 ms
+20-Mar-2017 00:17:48.030 INFO [http-apr-8086-exec-25] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AnhKyYeu]] after start() had already been called. The second call will be ignored.
+20-Mar-2017 00:17:50.523 INFO [http-apr-8086-exec-8] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+20-Mar-2017 00:17:50.537 INFO [http-apr-8086-exec-8] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+20-Mar-2017 00:17:50.541 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+20-Mar-2017 00:17:50.544 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+20-Mar-2017 00:17:50.591 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+20-Mar-2017 00:17:50.591 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+20-Mar-2017 00:17:50.623 WARN [http-apr-8086-exec-8] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20-Mar-2017 00:17:50.648 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblparameter.hbm.xml
+20-Mar-2017 00:17:50.662 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllog.hbm.xml
+20-Mar-2017 00:17:50.667 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblstatistic.hbm.xml
+20-Mar-2017 00:17:50.671 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblalbum.hbm.xml
+20-Mar-2017 00:17:50.677 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcalendar.hbm.xml
+20-Mar-2017 00:17:50.684 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcategory.hbm.xml
+20-Mar-2017 00:17:50.689 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbluser.hbm.xml
+20-Mar-2017 00:17:50.694 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblsection.hbm.xml
+20-Mar-2017 00:17:50.700 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbladvertise.hbm.xml
+20-Mar-2017 00:17:50.704 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/TblarticleExtends.hbm.xml
+20-Mar-2017 00:17:50.712 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblvalue.hbm.xml
+20-Mar-2017 00:17:50.718 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tbllabel.hbm.xml
+20-Mar-2017 00:17:50.723 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblimage.hbm.xml
+20-Mar-2017 00:17:50.729 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblfeedback.hbm.xml
+20-Mar-2017 00:17:50.736 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblaccount.hbm.xml
+20-Mar-2017 00:17:50.742 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblcustomer.hbm.xml
+20-Mar-2017 00:17:50.747 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.addResource HHH000221: Reading mappings from resource: Entities/Tblarticle.hbm.xml
+20-Mar-2017 00:17:50.755 INFO [http-apr-8086-exec-8] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+20-Mar-2017 00:17:51.005 WARN [http-apr-8086-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+20-Mar-2017 00:17:51.010 INFO [http-apr-8086-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/motchangduong_data?zeroDateTimeBehavior=convertToNull]
+20-Mar-2017 00:17:51.010 INFO [http-apr-8086-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+20-Mar-2017 00:17:51.011 INFO [http-apr-8086-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+20-Mar-2017 00:17:51.013 INFO [http-apr-8086-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 100 (min=1)
+20-Mar-2017 00:17:51.225 INFO [http-apr-8086-exec-8] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-Mar-2017 00:17:51.371 INFO [http-apr-8086-exec-8] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-Mar-2017 00:17:51.380 INFO [http-apr-8086-exec-8] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+20-Mar-2017 00:17:52.298 WARN [http-apr-8086-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1267, SQLState: HY000
+20-Mar-2017 00:17:52.299 ERROR [http-apr-8086-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='

@@ -31,6 +31,7 @@ public class ApplicationConfig extends Application {
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(GuestService.IndexResource.class);
         resources.add(Service.AlbumResource.class);
+        resources.add(Service.ArticleResource.class);
         resources.add(Service.ImageResource.class);
         resources.add(Service.LoginResource.class);
         resources.add(Service.ThamSoResource.class);

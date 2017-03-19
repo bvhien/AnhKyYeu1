@@ -49,6 +49,22 @@ public class User extends HttpServlet {
         } else if (type.equals("LuuThongTin")) {
             String data = request.getParameter("data");
             String strjson = ServiceUtils.callService(Constants.fileName + "/User/ThemUser", "POST", data);
+            System.out.println("jsonnnnnnnnnnn:"+strjson);
+            json = new JSONObject(strjson);
+            writer.write(json.toString());
+        }else if (type.equals("XoaUser")) {
+            String data = request.getParameter("data");
+            String strjson = ServiceUtils.callService(Constants.fileName + "/User/XoaUser", "POST", data);
+            json = new JSONObject(strjson);
+            writer.write(json.toString());
+        }else if(type.equals("ShowPopupSua")){
+            String data = request.getParameter("data");
+            String strjson = ServiceUtils.callService(Constants.fileName + "/User/ShowPopupSua", "POST", data);
+            json = new JSONObject(ServiceUtils.Decoder(strjson));
+            writer.write(json.toString());
+        }else if(type.equals("SuaUser")){
+            String data = request.getParameter("data");
+            String strjson = ServiceUtils.callService(Constants.fileName + "/User/SuaUser", "POST", data);
             json = new JSONObject(strjson);
             writer.write(json.toString());
         }
