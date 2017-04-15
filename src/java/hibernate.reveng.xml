@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
 <hibernate-reverse-engineering>
-  <schema-selection match-catalog="motchangduong_data"/>
-  <table-filter match-name="tblarticle_extends"/>
-  <table-filter match-name="tbllabel"/>
-  <table-filter match-name="tblvalue"/>
-  <table-filter match-name="tbllog"/>
-  <table-filter match-name="tblcalendar"/>
-  <table-filter match-name="tblsection"/>
-  <table-filter match-name="tblfeedback"/>
-  <table-filter match-name="tblaccount"/>
-  <table-filter match-name="tbladvertise"/>
-  <table-filter match-name="tblimage"/>
-  <table-filter match-name="tbluser"/>
-  <table-filter match-name="tblarticle"/>
-  <table-filter match-name="tblstatistic"/>
-  <table-filter match-name="tblcategory"/>
+  <schema-selection match-catalog="anhkyyeu"/>
   <table-filter match-name="tblcustomer"/>
-  <table-filter match-name="tblalbum"/>
+  <table-filter match-name="tbladvertise"/>
+  <table-filter match-name="tbllabel"/>
+  <table-filter match-name="tblcalendar"/>
+  <table-filter match-name="tbllog"/>
+  <table-filter match-name="tblarticle_extends"/>
   <table-filter match-name="tblparameter"/>
+  <table-filter match-name="tblvalue"/>
+  <table-filter match-name="tblarticle"/>
+  <table-filter match-name="tblaccount"/>
+  <table-filter match-name="tblimage"/>
+  <table-filter match-name="tblstatistic"/>
+  <table-filter match-name="tbluser"/>
+  <table-filter match-name="tblsection"/>
+  <table-filter match-name="tblalbum"/>
+  <table-filter match-name="tblcategory"/>
+  <table-filter match-name="tblfeedback"/>
 </hibernate-reverse-engineering>

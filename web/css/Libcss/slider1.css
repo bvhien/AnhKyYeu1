@@ -494,13 +494,13 @@ background-color:#34495e;
 #shows-image .title-image{
 z-index: 99;
 position: relative;
-bottom: 54px;
+bottom: 40px;
 height: 40px;
 background-color: rgba(0, 0, 0, 0.4);
 margin-right: 0px;
 margin-left: 0px;
 right: 0px;
-line-height: 40px;
+line-height: 15px;
 
 }
 #shows-image .title-image>p{
@@ -509,7 +509,7 @@ line-height: 40px;
 }
 #shows-image .album-image:hover>.title-image{
 	position:relative;
-	bottom:314px;
+	bottom:299px;
 	height:300px;
 	background-color:rgba(52, 73, 94,0.6);
 	transition:0.8s;

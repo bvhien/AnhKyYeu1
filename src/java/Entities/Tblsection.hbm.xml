@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Mar 19, 2017 11:45:27 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated 31-Mar-2017 00:18:22 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="Entities.Tblsection" table="tblsection" catalog="motchangduong_data" optimistic-lock="version">
+    <class name="Entities.Tblsection" table="tblsection" catalog="anhkyyeu" optimistic-lock="version">
         <id name="sectionId" type="java.lang.Short">
             <column name="section_id" />
             <generator class="identity" />
@@ -18,8 +18,8 @@
                 <comment>Ghi chu tong hop</comment>
             </column>
         </property>
-        <property name="sectionCreatedDate" type="timestamp">
-            <column name="section_created_date" length="19">
+        <property name="sectionCreatedDate" type="string">
+            <column name="section_created_date" length="50">
                 <comment>Ngay tao Chuyen muc - (Cap nhat 24/05/2011)</comment>
             </column>
         </property>

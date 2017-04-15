@@ -1,4 +1,4 @@
-<%@page language="java" contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <div class="content">
     <div id="new-albums">
         <div class="title">
@@ -7,23 +7,25 @@
             </div>
         </div>
         <div class="clr"></div>
-        <div id="album-content">
-            <div class="slide-holder">
-                <div class="slide-pager">
-                    <div class="slide-control-prev"><img src="../../Image/left.png"></img></div>
-                    <div class="slide-control-next"><img src="../../Image/right.png"></img></div>
-                </div>
-                <div class="slide-container">
-                    <div class="slide-stage">
-                        <div class="slide-image" ng-repeat=" cntt in AlbumCntt">
-                            <img src="{{cntt.AlbumImage}}"></img>
-                            <div class="title-image">
-                                <p>{{cntt.AlbumTitle}}</p>
-                                <a href="/{{cntt.AlbumId}}" class="myButton">Xem chi tiết</a>
+        <div id="slider1">
+            <div id="album-content">
+                <div class="slide-holder">
+                    <div class="slide-pager">
+                        <div class="slide-control-prev"><img src="../../Image/left.png"></img></div>
+                        <div class="slide-control-next"><img src="../../Image/right.png"></img></div>
+                    </div>
+                    <div class="slide-container">
+                        <div class="slide-stage">
+                            <div class="slide-image" ng-repeat=" TH in AlbumTH">
+                                <img src="../../Guest-Image/{{TH.AlbumImage}}"></img>
+                                <div class="title-image">
+                                    <p>{{TH.AlbumTitle}}</p>
+                                    <a href="Image.jsp?viewalbum={{TH.AlbumId}}" class="myButton">Xem chi tiết</a>
+                                </div>
                             </div>
+
+
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -46,46 +48,11 @@
                 </div>
                 <div class="slide-container">
                     <div class="slide-stage">
-                        <div class="slide-image">
-                            <img src="pictures/1.jpg"/>
+                        <div class="slide-image" ng-repeat=" cntt in AlbumCntt">
+                            <img src="../../Guest-Image/{{cntt.AlbumImage}}"/>
                             <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/2.jpg"/>
-                            <div class="title-image">
-                                <p>gwjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/3.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="pictures/4.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/5.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/5.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
+                                <p>{{cntt.AlbumTitle}}</p>
+                                <a href="Image.jsp?viewalbum={{cntt.AlbumId}}" class="myButton">Xem chi tiết</a>
                             </div>
                         </div>
                     </div>
@@ -112,42 +79,14 @@
                 </div>
                 <div class="slide-container">
                     <div class="slide-stage">
-                        <div class="slide-image">
-                            <img src="layout/pictures/1.jpg"/>
+                        <div class="slide-image" ng-repeat=" ck in AlbumCk">
+                            <img src="../../Guest-Image/{{ck.AlbumImage}}"/>
                             <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/3.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/4.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
+                                <p>{{ck.AlbumTitle}}</p>
+                                <a href="Image.jsp?viewalbum={{ck.AlbumId}}" class="myButton">Xem chi tiết</a>
                             </div>
                         </div>
 
-                        <div class="slide-image">
-                            <img src="layout/pictures/5.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/5.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -172,53 +111,11 @@
                 </div>
                 <div class="slide-container">
                     <div class="slide-stage">
-                        <div class="slide-image">
-                            <img src="layout/pictures/1.jpg"/>
+                        <div class="slide-image" ng-repeat=" kt in AlbumKt">
+                            <img src="../../Guest-Image/{{kt.AlbumImage}}"/>
                             <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/2.jpg"/>
-                            <div class="title-image">
-                                <p>gwjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/3.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/4.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/5.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/5.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
-                            </div>
-                        </div>
-                        <div class="slide-image">
-                            <img src="layout/pictures/5.jpg"/>
-                            <div class="title-image">
-                                <p>gjhgishgise</p>
-                                <a href="#" class="myButton">Xem chi tiết</a>
+                                <p>{{kt.AlbumTitle}}</p>
+                                <a href="Image.jsp?viewalbum={{kt.AlbumId}}" class="myButton">Xem chi tiết</a>
                             </div>
                         </div>
                     </div>
@@ -239,14 +136,10 @@
         <div class="clr"></div>
 
         <div id="handbook-content">
-            <div class="l-handbook-content">
-                <img src="layout/pictures/1.jpg"></img>
-                <a href="#">T\u1EEB n\u01A1i \u0111�y, bao th\u1EBF h\u1EC7 h\u1ECDc sinh, sinh vi�n (HSSV) \u0111� ra tr\u01B0\u1EDDng</a>
-            </div>
             <div class="r-handbook-content">
-                <div class="list-item">
-                    <img src="layout/pictures/1.jpg"></img>
-                    <a href="#">T\u1EEB n\u01A1i \u0111�y, bao th\u1EBF h\u1EC7 h\u1ECDc sinh, sinh vi�n (HSSV) \u0111� ra tr\u01B0\u1EDDng</a>
+                <div class="list-item" ng-repeat=" cn in Handbook">
+                    <img src="../../Guest-Image/{{cn.ArticleImage}}"></img>
+                    <a href="#">{{cn.ArticleTitle}}</a>
                 </div>
 
             </div>
@@ -263,23 +156,11 @@
         <div class="clr"></div>
 
         <div id="news-content">
-            <div class="l-news">
-                <div class="main-news">
-                    <img src="layout/pictures/1.jpg"></img>
-                    <a href="#">T\u1EEB n\u01A1i \u0111�y, bao th\u1EBF h\u1EC7 h\u1ECDc sinh, sinh vi�n (HSSV) \u0111� ra tr\u01B0\u1EDDng</a>
-                </div>
-                <div class="main-news">
-                    <img src="layout/pictures/1.jpg"></img>
-                    <a href="#">T\u1EEB n\u01A1i \u0111�y, bao th\u1EBF h\u1EC7 h\u1ECDc sinh, sinh vi�n (HSSV) \u0111� ra tr\u01B0\u1EDDng</a>
-                </div>
-            </div>
-
             <div class="r-news">
-                <ul>
-                    <a href="#"><li>T\u1EEB n\u01A1i \u0111�y, bao th\u1EBF h\u1EC7 h\u1ECDc sinh, sinh vi�n (HSSV) \u0111� ra tr\u01B0\u1EDDng</li></a>
-                    <a href="#"><li>T\u1EEB n\u01A1i \u0111�y, bao th\u1EBF h\u1EC7 h\u1ECDc sinh, sinh vi�n (HSSV) \u0111� ra tr\u01B0\u1EDDng</li></a>
-                    <a href="#"><li>T\u1EEB n\u01A1i \u0111�y, bao th\u1EBF h\u1EC7 h\u1ECDc sinh, sinh vi�n (HSSV) \u0111� ra tr\u01B0\u1EDDng</li></a>
-                </ul>
+                <div class="list-item" ng-repeat=" tt in Artile">
+                    <img src="../../Guest-Image/{{tt.ArticleImage}}"></img>
+                    <a href="#">{{tt.ArticleTitle}}</a>
+                </div>
             </div>
         </div>
 

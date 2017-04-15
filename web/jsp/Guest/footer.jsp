@@ -26,5 +26,13 @@
         <iframe style="float: right;" src="https://www.google.com/maps/d/embed?mid=z9hVTCL83tpc.kyLvhfCaYFLg" height="245" width="430"></iframe>		</div>
 </div>
 </div>
+<link href="../../css/index.css" rel="stylesheet" type="text/css"/>
+<link href="../../css/Libcss/slider1.css" rel="stylesheet" type="text/css"/>
+<link href="../../css/Libcss/responsiveslides.css" rel="stylesheet" type="text/css"/>
+<link href="../../css/Libcss/baguetteBox.css" rel="stylesheet" type="text/css"/>
+<script src="../../js/Libjs/custom.js" type="text/javascript"></script>
+<script src="../../js/Libjs/responsiveslides.min.js" type="text/javascript"></script>
+<script src="../../js/Libjs/baguetteBox.js" type="text/javascript"></script>
+<script src="../../js/Libjs/plugins.js" type="text/javascript"></script>
 </body>
 </html>

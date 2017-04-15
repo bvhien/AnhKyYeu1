@@ -35,18 +35,29 @@ public class Index extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException, JSONException {
-        response.setContentType("application/json");
         request.setCharacterEncoding("UTF-8");
+        response.setContentType("application/json;charset=UTF-8");
+        response.setCharacterEncoding("UTF-8");
         PrintWriter writer = response.getWriter();
         String type = request.getParameter("type");
         if (type.equals("LayThongTin")) {
             @SuppressWarnings("UnusedAssignment")
             JSONObject json = new JSONObject();
             String strjson = ServiceUtils.callService(Constants.fileName + "/Index/LayThongTin", "GET", null);
-            System.out.println("Hoa Oc Cho1:" + strjson);
-            String dataresponse = new String(Base64.base64Decode(strjson.getBytes()));
-            System.out.println("Hoa Oc Cho:" + dataresponse);
-            json = new JSONObject(dataresponse);
+            json = new JSONObject(ServiceUtils.Decoder(strjson));
+            writer.write(json.toString());
+        }else if(type.equalsIgnoreCase("LayThongTinAlbum")){
+            @SuppressWarnings("UnusedAssignment")
+            JSONObject json = new JSONObject();
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Index/LayThongTinAlbum", "GET", null);
+            json = new JSONObject(ServiceUtils.Decoder(strjson));
+            writer.write(json.toString());
+        }else if(type.equalsIgnoreCase("LayThongTinImage")){
+            @SuppressWarnings("UnusedAssignment")
+            String data = request.getParameter("data");
+            JSONObject json = new JSONObject();
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Index/LayThongTinImage/", "POST", data);
+            json = new JSONObject(ServiceUtils.Decoder(strjson));
             writer.write(json.toString());
         }
     }

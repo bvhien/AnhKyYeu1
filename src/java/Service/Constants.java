@@ -16,7 +16,7 @@ import sun.misc.BASE64Decoder;
 
 public class Constants {
 
-    public static String fileName = "http://localhost:8086/AnhKyYeu/webresources";
+    public static String fileName = "http://localhost:8005/AnhKyYeu/webresources";
     private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
 
     public static String ConvertUTF8(String str) {
@@ -65,9 +65,12 @@ public class Constants {
 //                bis.close();
 
                 // write the image to a file
-                File outputfile = new File("../../../web/Guest-Image/" + ImageName + ".png");
-                System.out.println("outputfile:" + outputfile.getAbsolutePath());
-                ImageIO.write(image, "png", outputfile);
+                File outputfile = new File("web/Guest-Image/" + ImageName + ".png");
+                String UrlAbsolute = outputfile.getAbsolutePath();
+                System.out.println("UrlAbsolute"+UrlAbsolute);
+                UrlAbsolute = UrlAbsolute.replace("lib\\apache-tomcat-8.0.39\\bin\\", "");
+                File fileimage1 = new File(UrlAbsolute);
+                ImageIO.write(image, "png", fileimage1);
                 System.out.println("=========upload anh thanh cong===========");
             } catch (Exception e) {
                 ImageName = null;

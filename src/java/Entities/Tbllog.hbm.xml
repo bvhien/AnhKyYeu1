@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Mar 19, 2017 11:45:27 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated 31-Mar-2017 00:18:22 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="Entities.Tbllog" table="tbllog" catalog="motchangduong_data" optimistic-lock="version">
+    <class name="Entities.Tbllog" table="tbllog" catalog="anhkyyeu" optimistic-lock="version">
         <id name="logId" type="java.lang.Integer">
             <column name="log_id" />
             <generator class="identity" />
@@ -14,8 +14,8 @@
         <property name="logUserPermission" type="java.lang.Short">
             <column name="log_user_permission" />
         </property>
-        <property name="logDate" type="timestamp">
-            <column name="log_date" length="19" />
+        <property name="logDate" type="string">
+            <column name="log_date" length="45" />
         </property>
         <property name="logUserName" type="string">
             <column name="log_user_name" length="45" />

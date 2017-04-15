@@ -27,7 +27,7 @@
         <div class="row" style="margin-top: 20px;">
             <h4>Album ảnh</h4>
             <div class="row ImageContainer" ng-show="AlbumImage.length > 0">
-                <div ng-repeat="itemImage in AlbumImage" class="ImtemImage">
+                <div ng-repeat="itemImage in AlbumImage track by $index" class="ImtemImage">
                     <a class="ckImage btn fa fa-times-circle" href="" ng-click="DeleteImage(itemImage.imageId,itemImage.imageUrl)"></a>
                     <img class="multipleImage" ng-src="../../Guest-Image/{{itemImage.imageUrl}}" />
                 </div>

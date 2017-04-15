@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Mar 19, 2017 11:45:27 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated 31-Mar-2017 00:18:22 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="Entities.Tblparameter" table="tblparameter" catalog="motchangduong_data" optimistic-lock="version">
+    <class name="Entities.Tblparameter" table="tblparameter" catalog="anhkyyeu" optimistic-lock="version">
         <id name="paraId" type="java.lang.Integer">
-            <column name="para_id" />
+            <column name="Para_Id" />
             <generator class="identity" />
         </id>
+        <property name="paraCode" type="string">
+            <column name="Para_Code" length="45" />
+        </property>
         <property name="paraValue" type="string">
-            <column name="para_value" length="200" />
+            <column name="Para_Value" length="200" />
         </property>
         <property name="paraContent" type="string">
-            <column name="para_content" length="500" />
+            <column name="Para_Content" length="450" />
         </property>
         <property name="paraStatus" type="string">
-            <column name="para_status" length="45" />
+            <column name="Para_Status" length="45" />
         </property>
-        <property name="paraCode" type="string">
-            <column name="para_code" length="45" />
+        <property name="paraIsDelete" type="string">
+            <column name="Para_Is_delete" length="45" />
         </property>
         <property name="paraCreatDate" type="timestamp">
-            <column name="para_creat_date" length="19" />
+            <column name="Para_Creat_Date" length="19" />
         </property>
         <property name="paraEditDate" type="timestamp">
-            <column name="para_edit_date" length="19" />
-        </property>
-        <property name="paraIsdelete" type="string">
-            <column name="para_isdelete" length="45" />
+            <column name="Para_Edit_Date" length="19" />
         </property>
     </class>
 </hibernate-mapping>

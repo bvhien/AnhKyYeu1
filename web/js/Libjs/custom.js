@@ -1,4 +1,4 @@
-﻿$(function(){
+﻿function Slider1(){
 	
 	// ========= Điều chỉnh các thông số cho slideshow =========
 	
@@ -114,12 +114,12 @@
 	}
 
 	
-})
+}
 
 //end album-content
 
 
-$(function(){
+function Slider2(){
 	
 	// ========= Điều chỉnh các thông số cho slideshow =========
 	
@@ -148,6 +148,7 @@ $(function(){
 	// Xác định số lượng hình của slide, chiều rộng của mỗi hình để tìm ra độ rộng của stage
 	var image_count2 = $('#khoacntt .slide-image').length;
 	var image_width2 = $('#khoacntt .slide-image').width();
+        console.log("soluong:"+image_count2+"==Width:"+image_width2);
 		// Độ rộng của hình ảnh có thể chỉnh sửa bằng css
 		// Độ rộng này quan trọng vì nó sẽ ảnh hưởng đến độ rộng của toàn bộ slide, cần được tính toán cẩn thận
 	var stage_width2 = image_width2 * image_count2;
@@ -241,9 +242,9 @@ $(function(){
 	//	start_slide_auto_scroll2();
 	//});
 	
-})
+}
 //end khoacntt
-$(function(){
+function Slider3(){
 	
 	// ========= Điều chỉnh các thông số cho slideshow =========
 	
@@ -359,11 +360,11 @@ $(function(){
 	}
 	
 	
-})
+}
 
 /*end khoacokhi*/
 
-$(function(){
+function Slider4(){
 	
 	// ========= Điều chỉnh các thông số cho slideshow =========
 	
@@ -479,10 +480,10 @@ $(function(){
 	}
 	
 	
-})
+}
 //end-khoakt
 
-$(function(){
+function Slider5(){
 	
 	// ========= Điều chỉnh các thông số cho slideshow =========
 	
@@ -600,4 +601,4 @@ $(function(){
 	
 	
 	
-})
+}

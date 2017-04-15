@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Mar 19, 2017 11:45:27 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated 31-Mar-2017 00:18:22 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="Entities.Tblfeedback" table="tblfeedback" catalog="motchangduong_data" optimistic-lock="version">
+    <class name="Entities.Tblfeedback" table="tblfeedback" catalog="anhkyyeu" optimistic-lock="version">
         <id name="feedbackId" type="java.lang.Integer">
             <column name="feedback_id" />
             <generator class="identity" />
@@ -29,8 +29,8 @@
         <property name="feedbackProductId" type="java.lang.Integer">
             <column name="feedback_product_id" />
         </property>
-        <property name="feedbackCreatedDate" type="timestamp">
-            <column name="feedback_created_date" length="19" />
+        <property name="feedbackCreatedDate" type="string">
+            <column name="feedback_created_date" length="50" not-null="true" />
         </property>
         <property name="feedbackView" type="java.lang.Boolean">
             <column name="feedback_view" />

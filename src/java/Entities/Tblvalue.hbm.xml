@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Mar 19, 2017 11:45:27 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated 31-Mar-2017 00:18:22 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="Entities.Tblvalue" table="tblvalue" catalog="motchangduong_data" optimistic-lock="version">
+    <class name="Entities.Tblvalue" table="tblvalue" catalog="anhkyyeu" optimistic-lock="version">
         <id name="valueId" type="java.lang.Integer">
             <column name="value_id" />
             <generator class="identity" />

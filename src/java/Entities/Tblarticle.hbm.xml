@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Mar 19, 2017 11:45:27 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated 31-Mar-2017 00:18:22 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="Entities.Tblarticle" table="tblarticle" catalog="motchangduong_data" optimistic-lock="version">
+    <class name="Entities.Tblarticle" table="tblarticle" catalog="anhkyyeu" optimistic-lock="version">
         <id name="articleId" type="java.lang.Integer">
             <column name="article_id" />
             <generator class="identity" />
@@ -17,8 +17,8 @@
         <property name="articleContent" type="string">
             <column name="article_content" />
         </property>
-        <property name="articleCreatedDate" type="timestamp">
-            <column name="article_created_date" length="19" />
+        <property name="articleCreatedDate" type="string">
+            <column name="article_created_date" length="150" />
         </property>
         <property name="articleLastModified" type="string">
             <column name="article_last_modified" length="150" />
@@ -29,10 +29,10 @@
         <property name="articleCategoryId" type="java.lang.Integer">
             <column name="article_category_id" />
         </property>
-        <property name="articleSectionId" type="java.lang.Short">
+        <property name="articleSectionId" type="java.lang.Integer">
             <column name="article_section_id" />
         </property>
-        <property name="articleVisited" type="java.lang.Integer">
+        <property name="articleVisited" type="java.lang.Short">
             <column name="article_visited" />
         </property>
         <property name="articleAuthorName" type="string">
@@ -74,13 +74,13 @@
                 <comment>Danh dau xoa</comment>
             </column>
         </property>
-        <property name="articleDeletedDate" type="timestamp">
-            <column name="article_deleted_date" length="19">
+        <property name="articleDeletedDate" type="string">
+            <column name="article_deleted_date" length="150">
                 <comment>Ngay danh dau xoa</comment>
             </column>
         </property>
-        <property name="articleRestoredDate" type="timestamp">
-            <column name="article_restored_date" length="19">
+        <property name="articleRestoredDate" type="string">
+            <column name="article_restored_date" length="150">
                 <comment>Ngay lay lai bai viet da xoa</comment>
             </column>
         </property>
@@ -115,11 +115,11 @@
                 <comment>Kieu bai viet, 0 la tin tuc</comment>
             </column>
         </property>
-        <property name="articleOrderNo" type="java.lang.Integer">
-            <column name="article_order_no" />
-        </property>
         <property name="articleStatus" type="string">
-            <column name="article_status" length="45" />
+            <column name="Article_Status" length="45" />
+        </property>
+        <property name="articleOrderNo" type="java.lang.Integer">
+            <column name="Article_Order_No" />
         </property>
     </class>
 </hibernate-mapping>

@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Mar 19, 2017 11:45:27 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated 31-Mar-2017 00:18:22 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="Entities.Tblalbum" table="tblalbum" catalog="motchangduong_data" optimistic-lock="version">
+    <class name="Entities.Tblalbum" table="tblalbum" catalog="anhkyyeu" optimistic-lock="version">
         <id name="albumId" type="java.lang.Integer">
             <column name="album_id" />
             <generator class="identity" />
@@ -27,7 +27,7 @@
             <column name="album_order_no" />
         </property>
         <property name="albumStatus" type="string">
-            <column name="album_status" length="20" />
+            <column name="album_status" length="45" />
         </property>
         <property name="albumCreatDate" type="timestamp">
             <column name="album_creat_date" length="19" />
@@ -36,7 +36,7 @@
             <column name="album_edit_date" length="19" />
         </property>
         <property name="albumNotes" type="string">
-            <column name="album_notes" length="500" />
+            <column name="album_notes" length="200" />
         </property>
     </class>
 </hibernate-mapping>

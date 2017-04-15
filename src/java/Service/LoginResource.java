@@ -79,6 +79,7 @@ public class LoginResource {
     public String CheckThongTin(@Context HttpServletRequest requestContext, String strJson) throws JSONException, UnsupportedEncodingException {
         requestContext.setCharacterEncoding("UTF-8");
         strJson = new String(Base64.base64Decode(strJson.getBytes()));
+            System.out.println("loginnnnn:"+strJson);
         JSONObject jsonObject = new JSONObject(strJson);
         System.out.println("JSONLOGIN:"+jsonObject);
         JSONObject jsonReturn = new JSONObject();

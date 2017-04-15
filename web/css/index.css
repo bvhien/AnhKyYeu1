@@ -108,7 +108,7 @@ a:hover{
 	width:100%;
 	border: medium none;
 	font-size: 16px;
-	padding-left:20px;
+	padding-left:0px;
 }
 .btn-search{
 	width: 42px;
@@ -471,8 +471,8 @@ margin-left: 45px;
 	
 }
 #shows-image .myButton:active {
-	position:relative;
-	top:50px;
+	position:absolute;
+	top:115px;
 }
 #slider4{
 	height:auto;
@@ -514,8 +514,8 @@ font-weight: bold;
 margin-left:5px;
 }
 .r-handbook-content{
-	float:right;
-	width:215px;
+/*	float:right;
+	width:215px;*/
 	
 }
 .list-item img{
@@ -677,7 +677,7 @@ width: 340px;
 	height:300px;
 	width:200px;
 	margin:10px;
-	display:inline-block;
+	display:inline-grid;
 }
 #map{
 width: 500px;

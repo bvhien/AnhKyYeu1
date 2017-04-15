@@ -2,8 +2,13 @@ package GuestService;
 
 import Entities.*;
 import Model.HibernateUtil;
+import Service.Constants;
+import Service.ServiceUtils;
 import com.mysql.jdbc.PreparedStatement;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.sql.ResultSet;
+import java.util.Date;
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
@@ -13,12 +18,14 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Produces;
 import org.eclipse.persistence.internal.oxm.conversion.Base64;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -26,7 +33,7 @@ import org.json.JSONObject;
 @Path("Index")
 public class IndexResource {
 
-    private static SessionFactory sf = HibernateUtil.getSessionFactory();
+    private static SessionFactory sf;
     @Context
     private UriInfo context;
 
@@ -38,14 +45,30 @@ public class IndexResource {
 
     //----------------------------------------------
     @GET
-    @Produces("application/json")
     @Path("/LayThongTin")
-    public byte[] getInitData(@Context HttpServletRequest requestContext) throws JSONException {
-        Session session = sf.getCurrentSession();
-        Transaction transaction = session.beginTransaction();
+    @Consumes("application/json")
+    @Produces("application/json;charset=UTF-8")
+    public String getInitData(@Context HttpServletRequest requestContext) throws JSONException {
+
+        sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.openSession();
         JSONObject jsonReturn = new JSONObject();
         jsonReturn.put("errorCode", "ERROR");
         jsonReturn.put("errorMessages", "L\u1ED7i h\u1EC7 th\u1ED1ng");
+
+        //-----------------
+        String sqlAlbumTH = "select album from " + Tblalbum.class.getName() + " album  order by album.albumId";
+        Query query_AlbumTH = session.createQuery(sqlAlbumTH);
+        query_AlbumTH.setMaxResults(5);
+        List<Tblalbum> albumTH = query_AlbumTH.list();
+        JSONArray arrAlbumTH = new JSONArray();
+        for (Tblalbum al : albumTH) {
+            JSONObject jsonAlbumTH = new JSONObject();
+            jsonAlbumTH.put("AlbumTitle", al.getAlbumTitle());
+            jsonAlbumTH.put("AlbumId", al.getAlbumId());
+            jsonAlbumTH.put("AlbumImage", al.getAlbumImage());
+            arrAlbumTH.put(jsonAlbumTH);
+        }
 
         //-----------------
         String sqlAlbumCNTT = "select album from " + Tblalbum.class.getName() + " album where album.albumCategoryId = :cntt order by album.albumId";
@@ -93,7 +116,7 @@ public class IndexResource {
         //----------------
         String sqlArticle = "select article from " + Tblarticle.class.getName() + " article where article.articleCategoryId = :arcategory order by article.articleId";
         Query query_Article = session.createQuery(sqlArticle);
-        query_Article.setParameter("arcategory", 5);
+        query_Article.setParameter("arcategory", 3);
         query_Article.setMaxResults(5);
         List<Tblarticle> article = query_Article.list();
         JSONArray arrAriticle = new JSONArray();
@@ -105,10 +128,10 @@ public class IndexResource {
             arrAriticle.put(jsonArticle);
         }
         //--------------------
-        String sqlHandbook = "select article from " + Tblarticle.class.getName() + " article where article.articleCategoryId = :arhandbook order by article.articleId";
+        String sqlHandbook = "select article from " + Tblarticle.class.getName() + " article where article.articleSectionId = :arhandbook order by article.articleId";
         Query query_Handbook = session.createQuery(sqlHandbook);
-        query_Handbook.setParameter("arhandbook", 4);
-        query_Handbook.setMaxResults(5);
+        query_Handbook.setParameter("arhandbook", 14);
+        query_Handbook.setMaxResults(3);
         List<Tblarticle> handbook = query_Handbook.list();
         JSONArray arrHandbook = new JSONArray();
         for (Tblarticle ar : handbook) {
@@ -121,13 +144,99 @@ public class IndexResource {
         //------------------
         jsonReturn.put("errorCode", "SUCCESS");
         jsonReturn.put("errorMessages", "Thanh Cong");
+        jsonReturn.put("AlbumTH", arrAlbumTH);
         jsonReturn.put("AlbumCntt", arrAlbumCntt);
         jsonReturn.put("AlbumCk", arrAlbumCk);
         jsonReturn.put("AlbumKt", arrAlbumKT);
         jsonReturn.put("Artile", arrAriticle);
         jsonReturn.put("Handbook", arrHandbook);
-        transaction.commit();
-        return Base64.base64Encode(jsonReturn.toString().getBytes());
+        return ServiceUtils.Encoder(jsonReturn.toString());
+    }
+//Lay thong tin Album
+
+    @GET
+    @Path("/LayThongTinAlbum")
+    @Consumes("application/json")
+    @Produces("application/json;charset=UTF-8")
+    public String LayThongTinAlbum(@Context HttpServletRequest requestContext) throws JSONException {
+
+        sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.openSession();
+        JSONObject jsonReturn = new JSONObject();
+        jsonReturn.put("errorCode", "ERROR");
+        jsonReturn.put("errorMessages", "L\u1ED7i h\u1EC7 th\u1ED1ng");
+
+        //-----------------
+        String sqlAlbumTH = "select album from " + Tblalbum.class.getName() + " album  order by album.albumId";
+        Query query_AlbumTH = session.createQuery(sqlAlbumTH);
+        List<Tblalbum> albumTH = query_AlbumTH.list();
+        JSONArray arrAlbumTH = new JSONArray();
+        for (Tblalbum al : albumTH) {
+            JSONObject jsonAlbumTH = new JSONObject();
+            jsonAlbumTH.put("AlbumTitle", al.getAlbumTitle());
+            jsonAlbumTH.put("AlbumId", al.getAlbumId());
+            jsonAlbumTH.put("AlbumImage", al.getAlbumImage());
+            arrAlbumTH.put(jsonAlbumTH);
+        }
+        //------------------
+        jsonReturn.put("errorCode", "SUCCESS");
+        jsonReturn.put("errorMessages", "Thanh Cong");
+        jsonReturn.put("ListAlbum", arrAlbumTH);
+        return ServiceUtils.Encoder(jsonReturn.toString());
+    }
+
+//=======Lay danh sach Image
+    //Thêm mới
+    @Path("/LayThongTinImage")
+    @POST
+    @Consumes("application/json")
+    @Produces("application/json;charset=UTF-8")
+    public String LayThongTinImage(@Context HttpServletRequest requestContext, String strdata) throws JSONException, UnsupportedEncodingException, IOException {
+        requestContext.setCharacterEncoding("UTF-8");
+        System.out.println("strData:"+strdata);
+//        String data = ServiceUtils.Decoder(strdata);
+//        JSONObject json = new JSONObject(data);
+        JSONObject jsonReturn = new JSONObject();
+        sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.openSession();
+        Transaction transaction = session.beginTransaction();
+        jsonReturn.put("errorCode", "ERROR");
+        jsonReturn.put("errorMessages", "L\u1ED7i h\u1EC7 th\u1ED1ng");
+        String Sqlalbum = "select album from " + Tblalbum.class.getName() + " album where album.albumId = " + strdata + "";
+        Query query_tblAlbum = session.createQuery(Sqlalbum);
+        List<Tblalbum> listAlbum = query_tblAlbum.list();
+        JSONArray arrAlbum = new JSONArray();
+        try {
+            for (Tblalbum al : listAlbum) {
+                JSONObject jsonAlbum = new JSONObject();
+                jsonAlbum.put("articleName", al.getAlbumTitle());
+                arrAlbum.put(jsonAlbum);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            transaction.rollback();
+        }
+
+        String SqlImage = "select image from " + Tblimage.class.getName() + " image where imageAlbumId = " + strdata + "";
+        Query query_tblImage = session.createQuery(SqlImage);
+        List<Tblimage> listImage = query_tblImage.list();
+        JSONArray arrImage = new JSONArray();
+        try {
+            for (Tblimage image : listImage) {
+                JSONObject jsonImage = new JSONObject();
+                jsonImage.put("ImageUrl", image.getImageUrl());
+                arrImage.put(jsonImage);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            transaction.rollback();
+        }
+        jsonReturn.put("errorCode", "SUCCESS");
+        jsonReturn.put("errorMessages", "Thanh Cong");
+        jsonReturn.put("TitleAlbum", arrAlbum);
+        jsonReturn.put("ListImage", arrImage);
+        return ServiceUtils.Encoder(jsonReturn.toString());
+
     }
 
     /**

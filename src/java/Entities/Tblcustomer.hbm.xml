@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Mar 19, 2017 11:45:27 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated 31-Mar-2017 00:18:22 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="Entities.Tblcustomer" table="tblcustomer" catalog="motchangduong_data" optimistic-lock="version">
+    <class name="Entities.Tblcustomer" table="tblcustomer" catalog="anhkyyeu" optimistic-lock="version">
         <id name="customerId" type="java.lang.Integer">
             <column name="customer_id" />
             <generator class="identity" />
@@ -51,8 +51,8 @@
                 <comment>So lan dang nhap</comment>
             </column>
         </property>
-        <property name="customerCreatedDate" type="timestamp">
-            <column name="customer_created_date" length="19">
+        <property name="customerCreatedDate" type="string">
+            <column name="customer_created_date" length="45">
                 <comment>Ngay tao tai khoan</comment>
             </column>
         </property>

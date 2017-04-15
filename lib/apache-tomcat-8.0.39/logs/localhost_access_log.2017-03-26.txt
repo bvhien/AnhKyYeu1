@@ -1,0 +1,14 @@
+127.0.0.1 - - [26/Mar/2017:14:15:30 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:15:30 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:15:30 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:15:30 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:16:06 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:16:06 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:16:06 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:16:16 +0700] "GET /AnhKyYeu/test-resbeans.html HTTP/1.1" 404 1048
+127.0.0.1 - - [26/Mar/2017:14:16:31 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:16:31 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:16:31 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:17:15 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:17:15 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [26/Mar/2017:14:17:15 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -

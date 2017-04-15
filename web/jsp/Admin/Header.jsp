@@ -120,7 +120,7 @@
                         <li>
                             <a href="Article.jsp"><i class="fa fa-fw fa-newspaper-o"></i> Bài viết</a>
                         </li>
-                        <li>
+<!--                        <li>
                             <a href="AddArticle.jsp"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
                         </li>
                         <li>
@@ -136,7 +136,7 @@
                         </li>
                         <li>
                             <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Blank Page</a>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

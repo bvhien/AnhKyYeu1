@@ -19,10 +19,6 @@ import javax.servlet.http.HttpServletResponse;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- *
- * @author BVHIEN
- */
 @WebServlet(name = "Article", urlPatterns = {"/Article"})
 public class Article extends HttpServlet {
 
@@ -43,13 +39,30 @@ public class Article extends HttpServlet {
         JSONObject json = new JSONObject();
         PrintWriter writer = response.getWriter();
         String type = request.getParameter("type");
+        System.out.println("type:"+type);
         String name = request.getParameter("name");
         if (type.equals("LayThongTin")) {
             @SuppressWarnings("UnusedAssignment")
             String strjson = ServiceUtils.callService(Constants.fileName + "/Article/GetArticle", "GET", null);
             json = new JSONObject(ServiceUtils.Decoder(strjson));
             writer.write(json.toString());
-        }
+        } else if (type.equalsIgnoreCase("LuuThongTin")) {
+            String data = request.getParameter("data");
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Article/ThemArticle", "POST", data);
+            json = new JSONObject(strjson);
+            writer.write(json.toString());
+        } else if (type.equals("SuaArticle")) {
+            String data = request.getParameter("data");
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Article/SuaArticle", "POST", data);
+            json = new JSONObject(strjson);
+            writer.write(json.toString());
+        }else if (type.equals("XoaArticle")) {
+            String data = request.getParameter("data");
+            @SuppressWarnings("UnusedAssignment")
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Article/XoaArticle", "POST", data);
+            json = new JSONObject(strjson);
+            writer.write(json.toString());
+        } 
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

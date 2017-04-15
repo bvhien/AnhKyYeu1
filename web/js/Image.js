@@ -65,6 +65,7 @@ app.controller('Ctrl', function ($scope) {
                                 CategoryId: 1
                             };
                         }
+                         $scope.LayDSAlbum($scope.Image.CategoryId);
                     }
                 });
             }

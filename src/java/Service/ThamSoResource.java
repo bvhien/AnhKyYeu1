@@ -106,9 +106,10 @@ public class ThamSoResource {
             Tblparameter para = new Tblparameter();
             para.setParaCode(json.has("MaThamSo") ? json.getString("MaThamSo") : null);
             para.setParaValue(json.has("TenThamSo") ? json.getString("TenThamSo") : null);
+            System.out.println("content:"+json.getString("DienGiai"));
             para.setParaContent(json.has("DienGiai") ? json.getString("DienGiai") : null);
             para.setParaStatus(json.has("TrangThai") ? json.getString("TrangThai") : null);
-            para.setParaIsdelete("0");
+            para.setParaIsDelete("0");
             para.setParaCreatDate(date);
             session.save(para);
             jsonReturn.put("errorCode", "SUCCESS");
@@ -208,7 +209,7 @@ public class ThamSoResource {
             para.setParaValue(json.has("TenThamSo") ? json.getString("TenThamSo") : null);
             para.setParaContent(json.has("DienGiai") ? json.getString("DienGiai") : null);
             para.setParaStatus(json.has("TrangThai") ? json.getString("TrangThai") : null);
-            para.setParaIsdelete("0");
+            para.setParaIsDelete("0");
             para.setParaCreatDate(json.has("NgayTao") ? sdf.parse(json.getString("NgayTao")) : null);
             para.setParaEditDate(date);
             session.update(para);

@@ -1,22 +1,41 @@
-<%@page language="java" contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title></title>
-        <link href="../../css/index.css" rel="stylesheet" type="text/css"/>
-        <link href="../../css/Libcss/slider1.css" rel="stylesheet" type="text/css"/>
-        <link href="../../css/Libcss/responsiveslides.css" rel="stylesheet" type="text/css"/>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
         <script src="../../js/Libjs/jquery-1.11.1.min.js" type="text/javascript"></script>
         <script src="../../js/Libjs/angular.min.js" type="text/javascript"></script>
         <script src="../../js/Libjs/angular-route.min.js" type="text/javascript"></script>
-        <script src="../../js/Libjs/custom.js" type="text/javascript"></script>
-        <script src="../../js/Libjs/responsiveslides.min.js" type="text/javascript"></script>
-        <script src="../../js/Libjs/baguetteBox.js" type="text/javascript"></script>
-        <script src="../../js/Libjs/plugins.js" type="text/javascript"></script>
-        <script>
+        <!--<script src="../../js/Libjs/plugins_1.js" type="text/javascript"></script>-->
+        <script type="text/javascript" charset="utf-8">
             var app = angular.module('app', ['ngRoute']);
-            $(function () {
-//                $("#slider1").responsiveSlides({
+            $(window).load(function () {
+                Slider2();
+                $("#slider2").responsiveSlides({
+                    maxwidth: 1170,
+                    speed: 800
+                });
+                Slider3();
+                $("#slider3").responsiveSlides({
+                    maxwidth: 1170,
+                    speed: 800
+                });
+                Slider1();
+                $("#slider1").responsiveSlides({
+                    maxwidth: 1170,
+                    speed: 800
+                });
+                Slider4();
+                $("#slider4").responsiveSlides({
+                    maxwidth: 1170,
+                    speed: 800
+                });
+//                Slider5();
+//                $("#slider5").responsiveSlides({
 //                    maxwidth: 1170,
 //                    speed: 800
 //                });
@@ -25,6 +44,7 @@
         <script src="../../js/GuestJS/index.js" type="text/javascript"></script>
     </head>
     <body ng-app="app" ng-controller="Index">
+        <% request.setCharacterEncoding("UTF-8");%>
         <div id="main">
             <div class="header">
                 <div id="bg-top">
@@ -110,10 +130,10 @@
                 </div>
                 <div class="nav">
                     <ul>
-                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="index.jsp">Trang chủ</a></li>
                         <li><a href="">Tin tức</a>
                         </li>
-                        <li><a href="">Hình ảnh</a></li>
+                        <li><a href="Album.jsp?album=viewalbum">Hình ảnh</a></li>
                         <li><a href="">Cẩm nang</a></li>
                         <li>
                             <a href="">Giới thiệu</a>
