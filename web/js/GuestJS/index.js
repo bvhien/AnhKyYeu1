@@ -7,6 +7,9 @@ app.controller('Index', function ($scope) {
         if ($scope.getParameterByName('viewalbum') != null) {
             $scope.LayThongTinImage($scope.getParameterByName('viewalbum'));
         }
+        if ($scope.getParameterByName('viewArticle') != null) {
+            $scope.LayThongTinArticle($scope.getParameterByName("viewArticle"))
+        }
     });
     $scope.getParameterByName = function (name) {
         url = window.location.href;
@@ -18,6 +21,26 @@ app.controller('Index', function ($scope) {
         if (!results[2])
             return '';
         return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    $scope.LayThongTinArticle = function (IdArticle) {
+        $.ajax({
+            url: "../../Index",
+            type: 'GET',
+            data: {
+                type: "LayThongTinArticle",
+                data: IdArticle
+            },
+            success: function (resp) {
+                console.log(resp);
+                $scope.$apply(function () {
+                    if (resp.errorCode == 'SUCCESS') {
+                        $scope.GetArticle = resp.GetArticle[0];
+                        document.getElementById('ContentArticle').innerHTML = $scope.GetArticle.ArticleContent;
+                    }
+                });
+            }
+        });
     }
 
     $scope.LayThongTinAlbum = function () {

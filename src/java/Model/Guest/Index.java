@@ -59,6 +59,13 @@ public class Index extends HttpServlet {
             String strjson = ServiceUtils.callService(Constants.fileName + "/Index/LayThongTinImage/", "POST", data);
             json = new JSONObject(ServiceUtils.Decoder(strjson));
             writer.write(json.toString());
+        }else if(type.equalsIgnoreCase("LayThongTinArticle")){
+            @SuppressWarnings("UnusedAssignment")
+            String data = request.getParameter("data");
+            JSONObject json = new JSONObject();
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Index/LayThongTinArticle/", "POST", data);
+            json = new JSONObject(ServiceUtils.Decoder(strjson));
+            writer.write(json.toString());
         }
     }
 

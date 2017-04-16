@@ -139,7 +139,7 @@
             <div class="r-handbook-content">
                 <div class="list-item" ng-repeat=" cn in Handbook">
                     <img src="../../Guest-Image/{{cn.ArticleImage}}"></img>
-                    <a href="#">{{cn.ArticleTitle}}</a>
+                    <a href="ViewArticle.jsp?viewArticle={{cn.ArticleId}}">{{cn.ArticleTitle}}</a>
                 </div>
 
             </div>
@@ -159,7 +159,7 @@
             <div class="r-news">
                 <div class="list-item" ng-repeat=" tt in Artile">
                     <img src="../../Guest-Image/{{tt.ArticleImage}}"></img>
-                    <a href="#">{{tt.ArticleTitle}}</a>
+                    <a href="ViewArticle.jsp?viewArticle={{tt.ArticleId}}">{{tt.ArticleTitle}}</a>
                 </div>
             </div>
         </div>

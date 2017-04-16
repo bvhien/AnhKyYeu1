@@ -4,7 +4,7 @@
 <div id="content-title">
     <div class="title">
         <div class="tab">
-            <h3><a href="#">Trang chủ</a> > Album</h3>
+            <h3><a href="index.jsp">Trang chủ</a> > Album</h3>
         </div>
     </div>
     <div id="shows-image">
