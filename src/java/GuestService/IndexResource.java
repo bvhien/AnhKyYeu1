@@ -127,6 +127,18 @@ public class IndexResource {
             jsonArticle.put("ArticleTitle", ar.getArticleTitle());
             arrAriticle.put(jsonArticle);
         }
+
+        Query queryArticleVisited = session.createQuery("select article from " + Tblarticle.class.getName() + " article order by article.articleVisited DESC ");
+        queryArticleVisited.setMaxResults(6);
+        List<Tblarticle> articleVisited = queryArticleVisited.list();
+        JSONArray arrArticleVisited = new JSONArray();
+        for (Tblarticle articlevisited : articleVisited) {
+            JSONObject jsonArticleVisited = new JSONObject();
+            jsonArticleVisited.put("ArticleId", articlevisited.getArticleId());
+            jsonArticleVisited.put("ArticleImage", articlevisited.getArticleImage());
+            jsonArticleVisited.put("ArticleTitle", articlevisited.getArticleTitle());
+            arrArticleVisited.put(jsonArticleVisited);
+        }
         //--------------------
         String sqlHandbook = "select article from " + Tblarticle.class.getName() + " article where article.articleSectionId = :arhandbook order by article.articleId";
         Query query_Handbook = session.createQuery(sqlHandbook);
@@ -150,6 +162,7 @@ public class IndexResource {
         jsonReturn.put("AlbumKt", arrAlbumKT);
         jsonReturn.put("Artile", arrAriticle);
         jsonReturn.put("Handbook", arrHandbook);
+        jsonReturn.put("ArticleVisited", arrArticleVisited);
         return ServiceUtils.Encoder(jsonReturn.toString());
     }
 //Lay thong tin Album
@@ -298,13 +311,119 @@ public class IndexResource {
             e.printStackTrace();
             transaction.rollback();
         }
-        
-        Query SQLUpdateVisited = session.createQuery("update "+Tblarticle.class.getName()+" set articleVisited = "+Article_Visited+" where articleId = "+strdata+"");
+
+        Query SQLUpdateVisited = session.createQuery("update " + Tblarticle.class.getName() + " set articleVisited = " + Article_Visited + " where articleId = " + strdata + "");
         int rowExe = SQLUpdateVisited.executeUpdate();
         session.getTransaction().commit();
         jsonReturn.put("errorCode", "SUCCESS");
         jsonReturn.put("errorMessages", "Thanh Cong");
         jsonReturn.put("GetArticle", arrArticle);
+        return ServiceUtils.Encoder(jsonReturn.toString());
+
+    }
+
+    //=======Lay danh sach Article
+    @Path("/LayDanhSachArticle")
+    @POST
+    @Consumes("application/json")
+    @Produces("application/json;charset=UTF-8")
+    public String LayDanhSachArticle(@Context HttpServletRequest requestContext, String strdata) throws JSONException, UnsupportedEncodingException, IOException {
+        requestContext.setCharacterEncoding("UTF-8");
+        System.out.println("strData:" + strdata);
+//        String data = ServiceUtils.Decoder(strdata);
+//        JSONObject json = new JSONObject(data);
+        JSONObject jsonReturn = new JSONObject();
+        sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.openSession();
+        Transaction transaction = session.beginTransaction();
+        jsonReturn.put("errorCode", "ERROR");
+        jsonReturn.put("errorMessages", "L\u1ED7i h\u1EC7 th\u1ED1ng");
+
+        //Lay ten Section
+        String SqlGetSectionName = "select section from " + Tblsection.class.getName() + " section where section.sectionId = " + strdata + "";
+        Query query_getSectionName = session.createQuery(SqlGetSectionName);
+        List<Tblsection> listGetSectionName = query_getSectionName.list();
+        JSONObject jsonSectionName = new JSONObject();
+        try {
+            Tblsection getSectionName = listGetSectionName.get(0);
+            jsonSectionName.put("SectionName", getSectionName.getSectionName());
+        } catch (Exception e) {
+        }
+
+        String SqlArticle = "select article from " + Tblarticle.class.getName() + " article where article.articleSectionId = " + strdata + "";
+        Query query_tblGetArticle = session.createQuery(SqlArticle);
+        List<Tblarticle> listGetArticle = query_tblGetArticle.list();
+        JSONArray arrArticle = new JSONArray();
+        try {
+            for (Tblarticle article : listGetArticle) {
+                JSONObject jsonArticle = new JSONObject();
+                jsonArticle.put("ArticleId", article.getArticleId());
+                jsonArticle.put("ArticleTitle", article.getArticleTitle());
+                jsonArticle.put("ArticleSummary", article.getArticleSummary());
+                jsonArticle.put("ArticleContent", article.getArticleContent());
+                jsonArticle.put("ArticleImage", article.getArticleImage());
+                arrArticle.put(jsonArticle);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            transaction.rollback();
+        }
+        jsonReturn.put("errorCode", "SUCCESS");
+        jsonReturn.put("errorMessages", "Thanh Cong");
+        jsonReturn.put("ListArticleBySection", arrArticle);
+        jsonReturn.put("SectionName", jsonSectionName);
+        return ServiceUtils.Encoder(jsonReturn.toString());
+
+    }
+
+    
+    //Search
+    @Path("/Search")
+    @POST
+    @Consumes("application/json")
+    @Produces("application/json;charset=UTF-8")
+    public String Search(@Context HttpServletRequest requestContext, String strdata) throws JSONException, UnsupportedEncodingException, IOException {
+        requestContext.setCharacterEncoding("UTF-8");
+        JSONObject jsonReturn = new JSONObject();
+        sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.openSession();
+        Transaction transaction = session.beginTransaction();
+        jsonReturn.put("errorCode", "ERROR");
+        jsonReturn.put("errorMessages", "L\u1ED7i h\u1EC7 th\u1ED1ng");
+        String Sqlalbum = "SELECT * FROM "+Tblalbum.class.getName()+" where UPPER(album_title) like concat(concat('%',UPPER('"+strdata+"')),'%') or UPPER('"+strdata+"') like concat(concat('%',UPPER(album_title)),'%')";
+        Query query_tblAlbum = session.createQuery(Sqlalbum);
+        List<Tblalbum> listAlbum = query_tblAlbum.list();
+        JSONArray arrAlbum = new JSONArray();
+        try {
+            for (Tblalbum al : listAlbum) {
+                JSONObject jsonAlbum = new JSONObject();
+                jsonAlbum.put("ResultId", al.getAlbumId());
+                jsonAlbum.put("ResultTitle", al.getAlbumTitle());
+                arrAlbum.put(jsonAlbum);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            transaction.rollback();
+        }
+
+        String SqlImage = "select image from " + Tblimage.class.getName() + " image where imageAlbumId = " + strdata + "";
+        Query query_tblImage = session.createQuery(SqlImage);
+        List<Tblimage> listImage = query_tblImage.list();
+        JSONArray arrImage = new JSONArray();
+        try {
+            for (Tblimage image : listImage) {
+                JSONObject jsonImage = new JSONObject();
+                jsonImage.put("ImageUrl", image.getImageUrl());
+                arrImage.put(jsonImage);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            transaction.rollback();
+        }
+        jsonReturn.put("errorCode", "SUCCESS");
+        jsonReturn.put("errorMessages", "Thanh Cong");
+        jsonReturn.put("TitleAlbum", arrAlbum);
+        jsonReturn.put("ListImage", arrImage);
         return ServiceUtils.Encoder(jsonReturn.toString());
 
     }

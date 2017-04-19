@@ -46,24 +46,38 @@ public class Index extends HttpServlet {
             String strjson = ServiceUtils.callService(Constants.fileName + "/Index/LayThongTin", "GET", null);
             json = new JSONObject(ServiceUtils.Decoder(strjson));
             writer.write(json.toString());
-        }else if(type.equalsIgnoreCase("LayThongTinAlbum")){
+        } else if (type.equalsIgnoreCase("LayThongTinAlbum")) {
             @SuppressWarnings("UnusedAssignment")
             JSONObject json = new JSONObject();
             String strjson = ServiceUtils.callService(Constants.fileName + "/Index/LayThongTinAlbum", "GET", null);
             json = new JSONObject(ServiceUtils.Decoder(strjson));
             writer.write(json.toString());
-        }else if(type.equalsIgnoreCase("LayThongTinImage")){
+        } else if (type.equalsIgnoreCase("LayThongTinImage")) {
             @SuppressWarnings("UnusedAssignment")
             String data = request.getParameter("data");
             JSONObject json = new JSONObject();
             String strjson = ServiceUtils.callService(Constants.fileName + "/Index/LayThongTinImage/", "POST", data);
             json = new JSONObject(ServiceUtils.Decoder(strjson));
             writer.write(json.toString());
-        }else if(type.equalsIgnoreCase("LayThongTinArticle")){
+        } else if (type.equalsIgnoreCase("LayThongTinArticle")) {
             @SuppressWarnings("UnusedAssignment")
             String data = request.getParameter("data");
             JSONObject json = new JSONObject();
             String strjson = ServiceUtils.callService(Constants.fileName + "/Index/LayThongTinArticle/", "POST", data);
+            json = new JSONObject(ServiceUtils.Decoder(strjson));
+            writer.write(json.toString());
+        } else if (type.equalsIgnoreCase("LayDanhSachArticle")) {
+            @SuppressWarnings("UnusedAssignment")
+            String data = request.getParameter("data");
+            JSONObject json = new JSONObject();
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Index/LayDanhSachArticle/", "POST", data);
+            json = new JSONObject(ServiceUtils.Decoder(strjson));
+            writer.write(json.toString());
+        }else if(type.equalsIgnoreCase("Search")){
+            @SuppressWarnings("UnusedAssignment")
+            String data = request.getParameter("data");
+            JSONObject json = new JSONObject();
+            String strjson = ServiceUtils.callService(Constants.fileName + "/Index/Search/", "POST", data);
             json = new JSONObject(ServiceUtils.Decoder(strjson));
             writer.write(json.toString());
         }

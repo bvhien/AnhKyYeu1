@@ -91,7 +91,7 @@ a:hover{
 }
 .logo img{
     height:115px;
-    margin-left: 10px;
+    margin-left: 100px;
 }
 .search{
     display: inline-block;
@@ -99,7 +99,7 @@ a:hover{
     border: 1px solid #EAEAEA;
     position: relative;
     margin-top: 45px;
-    margin-left: 30px;
+    margin-left: 100px;
     padding-left: 0px;
     height:41px;
 }
@@ -192,8 +192,8 @@ a:hover{
     position: relative;
     line-height: 36px;
     margin-top: 0px;
-    width: 200px;
-    margin-left: -40px;
+    width: 240px;
+    margin-left: -41px;
     opacity: 0.9;
     z-index: 9999;
 }
@@ -220,7 +220,7 @@ a:hover{
     display: block;
     padding: 7px 10px;
     text-decoration: none;
-    width: 90%;
+    width: 100%;
     font-size: 16px;
     color: black;
 }
@@ -241,6 +241,7 @@ a:hover{
 .category ul li ul li{
     width:100%;
     float:left;
+    background-color: #eeeeee;
 }
 .category ul li ul li ul{
     margin-top: 0px;
@@ -630,7 +631,7 @@ a:hover{
 .facebook{
     box-shadow: 0px 0px 2px 1px #9E9B9B;
     margin-top:10px;
-    height:230px;
+    height:300px;
     background-color: rgba(234, 234, 234, 0.6);
 }
 
@@ -661,6 +662,7 @@ a:hover{
 }
 #content-title{
     margin-top:30px;
+    height: auto;
 }
 #content-title a{
     color:white;
@@ -683,7 +685,7 @@ a:hover{
     width: 500px;
     height: 230px;
     position: relative;
-    top: -405px;
+    top: -417px;
     left: 672px;
 }
 #map p{
@@ -712,6 +714,7 @@ a:hover{
     margin: auto;
     width: 80%;
     padding: 10px;
+    border-bottom: 1px solid blue;
 }
 .TitleArticle{
     text-align: center;
@@ -723,4 +726,13 @@ a:hover{
 }
 .ContentArticle{
     text-align: justify;
+}
+.ArticleImage{
+    width: 150px;
+}
+.ListSummaryArticle{
+    width: 100%;
+}
+.ListTitleArticle{
+    width: 100%;
 }

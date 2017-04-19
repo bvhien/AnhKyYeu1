@@ -34,11 +34,11 @@
                     maxwidth: 1170,
                     speed: 800
                 });
-//                Slider5();
-//                $("#slider5").responsiveSlides({
-//                    maxwidth: 1170,
-//                    speed: 800
-//                });
+                Slider5();
+                $("#slider5").responsiveSlides({
+                    maxwidth: 1170,
+                    speed: 800
+                });
             });
         </script>
         <script src="../../js/GuestJS/index.js" type="text/javascript"></script>
@@ -66,13 +66,13 @@
                 <div class="baner">
                     <div class="logo">
                         <a href="#">
-                            <img src="../../Image/fit-haui.png"></img>
+                            <img src="../../Image/HUST.jpg"></img>
                         </a>
                     </div>
                     <div class="search">
                         <form name="frmSearch" action="/home/Tim-kiem/">
-                            <input type="text" placeholder="Nhập từ khóa tìm kiếm..."></input>
-                            <button type="submit" class="btn-search"></button>
+                            <input type="text" placeholder="Nhập từ khóa tìm kiếm..." id="SearchValue"></input>
+                            <a href="#" ng-click="Search()" class="btn-search"></a>
                         </form>
                     </div>
                     <div class="clr"></div>
@@ -87,43 +87,37 @@
                                 <li><a href="">Khoa CNTT</a>
                                     <ul>
                                         <li>
-                                            <a href="">Khóa 6</a>
+                                            <a href="Image.jsp?viewalbum=78">Kỹ thuật PM1</a>
                                         </li>
                                         <li>
-                                            <a href="">Khóa 7</a>
+                                            <a href="Image.jsp?viewalbum=79">Kỹ thuật PM2</a>
                                         </li>
-                                        <li><a href="">Khóa 13</a></li>
-                                        <li><a href="">Khóa 14</a></li>
+                                        <li><a href="Image.jsp?viewalbum=80">Kỹ thuật PM3</a></li>
+                                        <li><a href="Image.jsp?viewalbum=81">Khoa học MT1</a></li>
+                                        <li><a href="Image.jsp?viewalbum=82">Khoa học MT2</a></li>
+                                        <li><a href="Image.jsp?viewalbum=83">Khoa học MT3</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="">Menu cấp 1</a></li>
-                                <li><a href="">Menu cấp 1</a>
+                                <li><a href="">Khoa Cơ Khí</a></li>
                                     <ul>
-                                        <li><a href="">Menu cấp 2</a>
-                                            <ul>
-                                                <li><a href="">Menu cấp 3</a>
-                                                </li>
-                                                <li><a href="">Menu cấp 3</a></li>
-                                                <li><a href="">Menu cấp 3</a></li>
-                                                <li><a href="">Menu cấp 3</a></li>
-                                                <li><a href="">Menu cấp 3</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="">Menu cấp 2</a>
-                                            <ul>
-                                                <li><a href="">Menu cấp 3</a>
-
-                                                </li>
-                                                <li><a href="">Menu cấp 3</a></li>
-                                                <li><a href="">Menu cấp 3</a></li>
-                                                <li><a href="">Menu cấp 3</a></li>
-                                                <li><a href="">Menu cấp 3</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="Image.jsp?viewalbum=84">Chế tạo máy 1</a></li>
+                                        <li><a href="Image.jsp?viewalbum=85">Chế tạo máy 2</a></li>
+                                        <li><a href="Image.jsp?viewalbum=86">Chế tạo máy 3</a></li>
+                                        <li><a href="Image.jsp?viewalbum=87">Công nghệ hàn 1</a></li>
+                                        <li><a href="Image.jsp?viewalbum=88">Công nghệ hàn 2</a></li>
+                                        <li><a href="Image.jsp?viewalbum=89">Công nghệ hàn 3</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="">Menu cấp 1</a></li>
-                                <li><a href="">Menu cấp 1</a></li>
+                                <li><a href="">Khoa KT - KT</a>
+                                    <ul>
+                                        <li><a href="Image.jsp?viewalbum=90">Tài chính - Ngân hàng 1</a></li>
+                                        <li><a href="Image.jsp?viewalbum=91">Tài chính - Ngân hàng 2</a></li>
+                                        <li><a href="Image.jsp?viewalbum=92">Tài chính - Ngân hàng 3</a></li>
+                                        <li><a href="Image.jsp?viewalbum=93">Kế toán 1</a></li>
+                                        <li><a href="Image.jsp?viewalbum=94">Kế toán 2</a></li>
+                                        <li><a href="Image.jsp?viewalbum=95">Kế toán 3</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -131,13 +125,11 @@
                 <div class="nav">
                     <ul>
                         <li><a href="index.jsp">Trang chủ</a></li>
-                        <li><a href="">Tin tức</a>
+                        <li><a href="Article.jsp?Section=15">Tin tức</a>
                         </li>
                         <li><a href="Album.jsp?album=viewalbum">Hình ảnh</a></li>
-                        <li><a href="">Cẩm nang</a></li>
-                        <li>
-                            <a href="">Giới thiệu</a>
-                        </li>
+                        <li><a href="Article.jsp?Section=14">Cẩm nang</a></li>
+                        <li><a href="Introduce.jsp">Giới thiệu</a></li>
                         <li><a href="">Liên hệ</a></li>
                     </ul>
                 </div>

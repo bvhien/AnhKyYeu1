@@ -10,6 +10,9 @@ app.controller('Index', function ($scope) {
         if ($scope.getParameterByName('viewArticle') != null) {
             $scope.LayThongTinArticle($scope.getParameterByName("viewArticle"))
         }
+        if ($scope.getParameterByName("Section") != null) {
+            $scope.LayDanhSachArticle($scope.getParameterByName("Section"));
+        }
     });
     $scope.getParameterByName = function (name) {
         url = window.location.href;
@@ -21,6 +24,26 @@ app.controller('Index', function ($scope) {
         if (!results[2])
             return '';
         return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    $scope.LayDanhSachArticle = function (IdSection) {
+        $.ajax({
+            url: "../../Index",
+            type: 'GET',
+            data: {
+                type: "LayDanhSachArticle",
+                data: IdSection
+            },
+            success: function (resp) {
+                console.log(resp);
+                $scope.$apply(function () {
+                    if (resp.errorCode == 'SUCCESS') {
+                        $scope.ListArticleBySection = resp.ListArticleBySection;
+                        $scope.SectionName = resp.SectionName;
+                    }
+                });
+            }
+        });
     }
 
     $scope.LayThongTinArticle = function (IdArticle) {
@@ -97,9 +120,31 @@ app.controller('Index', function ($scope) {
                         $scope.AlbumKt = resp.AlbumKt;
                         $scope.Handbook = resp.Handbook;
                         $scope.AlbumCntt = resp.AlbumCntt;
+                        $scope.ArticleVisited = resp.ArticleVisited;
                     }
                 });
             }
         });
     };
+
+    $scope.Search = function () {
+        var txtSearch = document.getElementById('IntrduceText').value;
+        if (txtSearch != undefined && txtSearch != null && txtSearch != '') {
+            $.ajax({
+                url: "../../Index",
+                type: 'GET',
+                data: {
+                    type: "Search",
+                    data: txtSearch
+                },
+                success: function (resp) {
+                    console.log(resp);
+                    $scope.$apply(function () {
+                        if (resp.errorCode == 'SUCCESS') {
+                        }
+                    });
+                }
+            });
+        }
+    }
 });

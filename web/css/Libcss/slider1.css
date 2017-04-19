@@ -19,7 +19,7 @@ text-align: center;
 #album-content .title-image{
 z-index: 99;
 position: relative;
-bottom: 60px;
+bottom: 45px;
 height: 40px;
 background-color: rgba(0, 0, 0, 0.4);
 margin-right: 6px;
@@ -33,7 +33,7 @@ line-height: 40px;
 }
 #album-content .slide-image:hover>.title-image{
 	position:relative;
-	bottom:308px;
+	bottom:245px;
 	height:288px;
 	background-color:rgba(52, 73, 94,0.6);
 	transition:0.8s;
@@ -111,7 +111,7 @@ text-align: center;
 #khoacntt .title-image{
 z-index: 99;
 position: relative;
-bottom: 60px;
+bottom: 45px;
 height: 40px;
 background-color: rgba(0, 0, 0, 0.4);
 margin-right: 4px;
@@ -128,7 +128,7 @@ line-height: 40px;
 }
 #khoacntt .slide-image:hover>.title-image{
 	position:inline-block;
-	bottom: 260px;
+	bottom: 245px;
 	height: 240px;
 	background-color:rgba(52, 73, 94,0.6);
 	transition:0.8s;
@@ -206,7 +206,7 @@ text-align: center;
 #khoacokhi .title-image{
 z-index: 99;
 position: relative;
-bottom: 60px;
+bottom: 45px;
 height: 40px;
 background-color: rgba(0, 0, 0, 0.4);
 margin-right: 4px;
@@ -221,7 +221,7 @@ line-height: 40px;
 
 #khoacokhi .slide-image:hover>.title-image{
 	position:inline-block;
-	bottom: 260px;
+	bottom: 245px;
 	height: 240px;
 	background-color:rgba(52, 73, 94,0.6);
 	transition:0.8s;
@@ -301,7 +301,7 @@ text-align: center;
 #khoakt .title-image{
 z-index: 99;
 position: relative;
-bottom: 60px;
+bottom: 45px;
 height: 40px;
 background-color: rgba(0, 0, 0, 0.4);
 margin-right: 4px;
@@ -316,7 +316,7 @@ line-height: 40px;
 
 #khoakt .slide-image:hover>.title-image{
 	position:inline-block;
-	bottom: 260px;
+	bottom: 245px;
 	height: 240px;
 	background-color:rgba(52, 73, 94,0.6);
 	transition:0.8s;
@@ -384,12 +384,13 @@ overflow: hidden;
 position:relative;
 }
 #view-news .slide-stage{
-position: absolute;
+position: relative;
 }
 #view-news .slide-image { /*Độ rộng của .slide-image có thể được thay đổi theo nhu cầu, ảnh hưởng đến độ rộng chung của slideshow*/
 float: left;
 width: 310px;
 height: 80px;
+font-size: 12px;
 text-align: center;
 border-bottom: 1px solid #C8C5C5;
 }
@@ -401,7 +402,7 @@ float:left;
 #view-news .title-image{
 z-index: 99;
 position: relative;
-bottom: 60px;
+bottom: 45px;
 height: 40px;
 background-color: rgba(0, 0, 0, 0.4);
 margin-right: 4px;
@@ -416,7 +417,7 @@ line-height: 40px;
 
 #view-news .slide-image:hover>.title-image{
 	position:inline-block;
-	bottom: 260px;
+	bottom: 245px;
 	height: 240px;
 	background-color:rgba(52, 73, 94,0.6);
 	transition:0.8s;
@@ -506,6 +507,7 @@ line-height: 15px;
 #shows-image .title-image>p{
 	color:white;
 	text-align:center !important;
+        margin-top: 10px;
 }
 #shows-image .album-image:hover>.title-image{
 	position:relative;
